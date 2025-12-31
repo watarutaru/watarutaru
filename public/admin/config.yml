@@ -2,17 +2,37 @@ backend:
   name: git-gateway
   branch: main
 
-media_folder: "src/assets/uploads"
-public_folder: "/assets/uploads"
+media_folder: "public/uploads"
+public_folder: "/uploads"
 
 collections:
-  - name: "blog"
-    label: "Blog"
+  - name: "contents"
+    label: "Contents"
     folder: "src/content/blog"
     create: true
-    slug: "{{slug}}"
+    slug: "{{fields.slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Slug (URL用・英数字)", name: "slug", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
+      - {
+          label: "Category",
+          name: "category",
+          widget: "select",
+          options: ["blog", "works"],
+          default: "blog"
+        }
+      - {
+          label: "Tags",
+          name: "tags",
+          widget: "list",
+          allow_add: true,
+          required: false
+        }
+      - {
+          label: "Description",
+          name: "description",
+          widget: "string",
+          required: false
+        }
       - { label: "Body", name: "body", widget: "markdown" }
