@@ -1,0 +1,78 @@
+---
+title: "今、わたまるラジオ vol.7放送しました"
+slug: imawatamaru07
+date: 2023-12-03T19:46:51
+category: blog
+tags: []
+description: "11/23(日)今、わたまるラジオvol.7放送しました！ 新企画2個が（聴いてくれた人はどうかわからないけど […]"
+originalUrl: "http://watarutaru.com/imawatamaru07/"
+sourceUrl: "https://web.archive.org/web/20231203194651/http://watarutaru.com/imawatamaru07/"
+archivedAt: 20231203194651
+---
+# [watarutaru.com watarutaru.com](/web/20231203194651/http://watarutaru.com/)
+
+10
+
+  
+
+Dec.
+
+2014.12.10
+
+## 今、わたまるラジオ vol.7放送しました
+
+11/23(日)今、わたまるラジオvol.7放送しました！ 新企画2個が（聴いてくれた人はどうかわからないけど）やってる身からして死ぬほど楽しかったので、幸せでした。アーカイブぜひ聞いて欲しいです。
+
+実は体調があまり芳しくない状態だったのだけど、個人的にめちゃめちゃ楽しかったのでオールOKってことにしました。いや、そう個人的になのよ。ちょうど数日後に落ち込むことがあったんだけど、自分で自分らの喋ってるラジオ聞き返して1人で爆笑してたからね、そりゃ世話ねぇわと思いました。
+
+そんなんで、やってる僕らが一番楽しいラジオとして定評がありますが、一部聞いて頂いている方にも何かしら楽しみの一部をお伝えできているのでは、という「今、わたまるラジオ」のアーカイブはこちらから。ぜひ地下鉄で聞いてください。
+
+### vol.7の放送
+
+* オープニング
+* この曲は、この瞬間のためにある　～ファルセット部門～
+* 待て、話せばわかる[NEW]
+* ひらがなドラフト
+* ギャラバ！[NEW]
+* 声に出して言いたい○○
+* エンディング
+
+でした！新企画2つ。
+
+### イライラにストーリーをつけよう！「待て、話せばわかる」
+
+日常生活の中で出くわす「おっと…これは許せないぞ」とか「いい加減にしろ！」という瞬間。 もちろん迷惑や不快な思いは消えないけれど、そんな非常識な行動をしてしまった人の裏側に、もしも”つい許してしまう”ほどの背景があったとしたら？ を考えていく企画です。 現代社会のせかせかした時間の中でついつい相手のことを考える余裕もなく頭ごなしに不快感を押し付けていませんか？ 一度、立ち止まって思いを馳せてみよう――。 いや、ごめんなさいなんか違う。こんな説教臭い話は何一つしてないです笑 もうちょっとくだらないトーンで「なーんだ、じゃあしょうがないか」と言える「話せばわかる」話を、代わりにしちゃおう（想像しよう）って感じです。
+
+### お前、週何回ギャラバしてる？
+
+ギャラバって何？いや、それは誰にもわからない。圧倒的未知の世界の単語を使って探りあいながら会話を成立させる新企画！ なんで「ギャラバ」なの？というのには、こちらのマンガをご覧頂きたい。とある日のTwitterにて、TLに颯爽と現れた破壊力ある1ページマンガです。
+
+> 【１ページ漫画】何がわからないの？ [pic.twitter.com/RDEgjS9WuF](https://web.archive.org/web/20231203194651/http://t.co/RDEgjS9WuF)
+>
+> — y80jp (@y80jp) [2014, 10月 28](https://web.archive.org/web/20231203194651/https://twitter.com/y80jp/status/526889472529408001)
+
+この秀逸さすごく好き。というのと、言葉のセンスがやばい。「ブルーゾーンでギャラバするだけじゃん！！」で3人大爆笑。そんなところから、圧倒的に知らない単語を元に会話していくゲーム感覚の企画が生まれました。
+
+初回となった今回の放送では「ペントラクティブ」や「ベッツェルカ」などの新しい単語を生み出しました。もはやベッツェルカってググると「今、わたまるラジオ」のアーカイブが出てくる世界初感。  
+すれ違いながらもむりやり噛ませるお互いの「ペントラクティブ」で死ぬほど笑いました。
+
+おすすめだから友達と遊びでやってみて欲しい。そのうち商品化する予定です。（仮）
+
+### と、いうわけで
+
+今回も楽しくできました。ありがとうございました。
+
+[ページの一番上に戻る](#top)
+
+[Facebook](https://web.archive.org/web/20231203194651/http://www.facebook.com/share.php?u=http://watarutaru.com/imawatamaru07/)
+[twitter](https://web.archive.org/web/20231203194651/http://twitter.com/share?url=http://watarutaru.com/imawatamaru07/&text=今、わたまるラジオ vol.7放送しました-watarutaru.com)
+[Hatena](https://web.archive.org/web/20231203194651/http://b.hatena.ne.jp/entry/http://watarutaru.com/imawatamaru07/ "今、わたまるラジオ vol.7放送しました")
+[pocket](https://web.archive.org/web/20231203194651/http://getpocket.com/edit?url=http://watarutaru.com/imawatamaru07/&title=今、わたまるラジオ vol.7放送しました)
+[Google+](https://web.archive.org/web/20231203194651/https://plus.google.com/share?url=http://watarutaru.com/imawatamaru07/)
+
+関連してそうな記事
+
+- [今、わたまるラジオ（仮）vol.6放送しました](https://web.archive.org/web/20231203194651/http://watarutaru.com/imawatamaru-vol6/ "今、わたまるラジオ（仮）vol.6放送しました")
+- [［お知らせ］10/11（土）夜23:00～　今、わたまるラジオVol.6やります！](https://web.archive.org/web/20231203194651/http://watarutaru.com/imawatamaru6/ "［お知らせ］10/11（土）夜23:00～　今、わたまるラジオVol.6やります！")
+
+© 2023 watarutaru.com. All rights reserved.
