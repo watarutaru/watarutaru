@@ -1,12 +1,16 @@
 ---
-title: "合唱曲「大事なこと」を再演しました // 演奏と楽譜データのご紹介"
-date: 2023-12-03T21:37:25
-category: blog
-tags: ["合唱", "作曲", "はらわた"]
-description: "2014年7月21日（月・祝）大学の合唱団の先輩でもある合唱人の原田さんとの企画で、第69回東京都合唱祭にてオ […]"
-originalUrl: "http://watarutaru.com/daijinakoto/"
-sourceUrl: "https://web.archive.org/web/20231203213725/http://watarutaru.com/daijinakoto/"
+date: 2014-07-21
+sourceUrl: https://web.archive.org/web/20231203213725/http://watarutaru.com/daijinakoto/
 archivedAt: 20231203213725
+title: 合唱曲「大事なこと」を再演しました // 演奏と楽譜データのご紹介
+tags:
+  - 合唱
+  - 作曲
+  - はらわた
+  - 東京都合唱祭
+description: 2014年7月21日（月・祝）大学の合唱団の先輩でもある合唱人の原田さんとの企画で、第69回東京都合唱祭にてオ […]
+category: blog
+originalUrl: http://watarutaru.com/daijinakoto/
 ---
 
 
