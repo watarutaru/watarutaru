@@ -1,6 +1,6 @@
 ---
 title: "watarutaru.com // ブログの立ち上げに向けて考えたこと"
-date: 2018-10-11T21:08:16
+date: 2014-08-26
 category: blog
 tags: ["お知らせ", "Webサイト"]
 description: "ようやく完成しました！ watarutaru.com。ドメイン取ってから1年半もかかってしまった。久しぶりに自 […]"

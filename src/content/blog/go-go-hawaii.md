@@ -1,6 +1,6 @@
 ---
 title: "GO GO Hawa!!"
-date: 2022-03-07T12:38:07
+date: 2017-10-24
 category: blog
 tags: ["旅行", "ハワイ"]
 description: "GO GO Hawa!! 詞・曲　Wataru Saito 地下鉄乗り継いで今日も巨大迷路向かう 積み木崩しに […]"

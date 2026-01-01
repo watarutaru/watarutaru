@@ -1,6 +1,6 @@
 ---
 title: "第一回早稲田センター試験（WEB＆イベント） in Lounge Note"
-date: 2016-07-15T12:12:02
+date: 2016-07-15
 category: blog
 tags: ["ライトノベル", "受験", "早稲田"]
 description: "Lounge Noteでインターンしていた時の一大企画をこっそりと。第一回早稲田センター試験と銘打って、早稲田 […]"

@@ -1,6 +1,6 @@
 ---
 title: "代々木の隠れ家的美容室「groove」のWEBサイトを作りました"
-date: 2023-12-03T20:47:42
+date: 2015-07-01
 category: blog
 tags: ["Webサイト", "制作"]
 description: "代々木駅から徒歩4分の路地にある隠れ家的な美容室「groove」さんのWEBサイトを作りました。 写真の撮影か […]"
