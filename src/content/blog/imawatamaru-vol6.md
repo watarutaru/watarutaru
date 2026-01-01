@@ -1,12 +1,14 @@
 ---
-title: "今、わたまるラジオ（仮）vol.6放送しました"
-date: 2023-12-03T21:16:11
-category: blog
-tags: ["ラジオ", "今わたまるラジオ"]
-description: "今、わたまるラジオ放送しました。毎回徐々にいろんな人に猛プッシュして(笑)聞いていただいていて、楽しくやらせて […]"
-originalUrl: "http://watarutaru.com/imawatamaru-vol6/"
-sourceUrl: "https://web.archive.org/web/20231203211611/http://watarutaru.com/imawatamaru-vol6/"
+date: 2014-10-14
+sourceUrl: https://web.archive.org/web/20231203211611/http://watarutaru.com/imawatamaru-vol6/
 archivedAt: 20231203211611
+title: 今、わたまるラジオ（仮）vol.6放送しました
+tags:
+  - ラジオ
+  - 今わたまるラジオ
+description: 今、わたまるラジオ放送しました。毎回徐々にいろんな人に猛プッシュして(笑)聞いていただいていて、楽しくやらせて […]
+category: blog
+originalUrl: http://watarutaru.com/imawatamaru-vol6/
 ---
 
 
