@@ -4,9 +4,208 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Content Manager</title>
+    <style>
+      /* 記事編集画面全体の文字サイズを85%に */
+      [class*="EditorControl"],
+      [class*="ControlPane"],
+      form[class*="Form"] {
+        font-size: 85% !important;
+      }
+
+      /* カスタムリストビュースタイル */
+      [class*="CardHeading"] {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start !important;
+      }
+
+      /* タイトル部分 - h2全体をflexコンテナに */
+      li[class*="ListCard"] [class*="CardHeading"] h2,
+      article [class*="CardHeading"] h2,
+      [class*="CardHeading"] > h2 {
+        width: 100% !important;
+        margin-bottom: 0 !important;
+        display: flex !important;
+        flex-direction: row !important;
+        gap: 24px !important;
+        align-items: center !important;
+      }
+
+      /* タイトルと日付の横並びコンテナ */
+      .custom-title-row {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: baseline;
+        width: 100%;
+        gap: 8px;
+      }
+
+      /* タイトルテキスト */
+      .custom-title {
+        font-size: 1em;
+        font-weight: 600;
+        color: #333;
+        flex: 1;
+      }
+
+      /* 日付部分（タイトル横） */
+      .custom-meta-date {
+        display: flex;
+        align-items: baseline;
+        gap: 6px;
+        font-size: 0.85em;
+        color: #666;
+        white-space: nowrap;
+      }
+
+      .custom-meta-date-main {
+        font-weight: 500;
+        color: #333;
+      }
+
+      .custom-meta-date-time {
+        color: #999;
+        font-size: 0.9em;
+      }
+
+      /* タグ部分（タイトルの下） */
+      .custom-meta-tags {
+        display: flex;
+        gap: 6px;
+        flex-wrap: wrap;
+      }
+
+      .custom-meta-tag {
+        background-color: #f0f0f0;
+        padding: 2px 8px;
+        border-radius: 3px;
+        font-size: 0.7em;
+        color: #333;
+      }
+    </style>
   </head>
   <body>
     <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script>
+      // CMSが読み込まれた後に実行
+      CMS.registerPreviewStyle('/styles/global.css');
+
+      // リストビューのカスタマイズ
+      function customizeListView() {
+        // 記事カード全体を探す
+        const cards = document.querySelectorAll('li[class*="ListCard"], article');
+
+        cards.forEach((card) => {
+          // 処理済みチェック
+          if (card.querySelector('.custom-title-row')) {
+            return; // 既に処理済み
+          }
+
+          // カード内のテキストを探す
+          const textElements = card.querySelectorAll('h2, p, span, div');
+
+          textElements.forEach((el) => {
+            const text = el.textContent.trim();
+
+            // "タイトル|||日付|||タグ" の形式をパース
+            const match = text.match(/^(.+?)\|\|\|(.+?)\|\|\|(.*)$/);
+
+            if (match) {
+              const [, title, date, tagsRaw] = match;
+
+              // タグの処理：#List [ "合唱"    #"エッセイ"    #"音楽" ] → ["合唱", "エッセイ", "音楽"]
+              let tagArray = [];
+              if (tagsRaw && tagsRaw.trim() !== '') {
+                // #List [ ... ] 形式を処理
+                const tagMatch = tagsRaw.match(/\[(.*?)\]/);
+                if (tagMatch) {
+                  // "合唱"    #"エッセイ" のような形式から抽出
+                  tagArray = tagMatch[1]
+                    .split(/[#"'\s,]+/)  // カンマも区切り文字に追加
+                    .map(t => t.trim())
+                    .filter(t => t && t !== 'List' && t !== '[' && t !== ']' && t !== ',');
+                } else {
+                  // 単純なカンマ区切りの場合
+                  tagArray = tagsRaw.split(',').map(t => t.trim()).filter(t => t);
+                }
+              }
+
+              // 日付の処理：2022-05-26T03:42:48 → 2022-05-26 03:42
+              let dateMain = date;
+              let dateTime = '';
+              if (date.includes('T')) {
+                const [datePart, timePart] = date.split('T');
+                dateMain = datePart;
+                // HH:MM:SS から HH:MM のみ取得
+                if (timePart) {
+                  const timeMatch = timePart.match(/^(\d{2}:\d{2})/);
+                  dateTime = timeMatch ? timeMatch[1] : '';
+                }
+              }
+
+              // タイトルと日付を横並び、タグを下に配置
+              const metaHTML = `
+                <div class="custom-title-row">
+                  <div class="custom-title">${title}</div>
+                  <div class="custom-meta-tags">
+                  ${tagArray.map(tag => `<span class="custom-meta-tag">#${tag}</span>`).join('')}
+                  </div>
+                </div>
+                <div class="custom-meta-date">
+                  <span class="custom-meta-date-main">${dateMain}</span>
+                  ${dateTime ? `<span class="custom-meta-date-time">${dateTime}</span>` : ''}                  
+                </div>
+                
+              `;
+
+              // 既存のサマリーを置き換え
+              el.innerHTML = metaHTML;
+
+              // h2要素に直接スタイルを適用
+              if (el.tagName === 'H2') {
+                el.style.width = '100%';
+                el.style.marginBottom = '0';
+                el.style.display = 'flex';
+                el.style.flexDirection = 'row';
+                el.style.gap = '24px';
+                el.style.alignItems = 'center';
+              }
+            }
+          });
+        });
+      }
+
+      function customizeTagIcon() {
+        // タグのメニュー項目を探す
+        const tagMenuItem = document.querySelector('a[href="#/collections/tags"]');
+        if (!tagMenuItem) return;
+
+        // SVGアイコンを探す
+        const svgIcon = tagMenuItem.querySelector('svg');
+        if (!svgIcon) return;
+
+        // 既に変更済みかチェック
+        if (svgIcon.dataset.customized) return;
+
+        // 新しいSVGに置き換え
+        svgIcon.outerHTML = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" data-customized="true" style="width: 24px; height: 24px; fill: currentColor;">
+          <path d="M96.5 160L96.5 309.5C96.5 326.5 103.2 342.8 115.2 354.8L307.2 546.8C332.2 571.8 372.7 571.8 397.7 546.8L547.2 397.3C572.2 372.3 572.2 331.8 547.2 306.8L355.2 114.8C343.2 102.7 327 96 310 96L160.5 96C125.2 96 96.5 124.7 96.5 160zM208.5 176C226.2 176 240.5 190.3 240.5 208C240.5 225.7 226.2 240 208.5 240C190.8 240 176.5 225.7 176.5 208C176.5 190.3 190.8 176 208.5 176z"/>
+        </svg>`;
+      }
+
+      // 定期的にチェック（CMSのDOM更新後に実行）
+      const interval = setInterval(() => {
+        customizeListView();
+        customizeTagIcon();
+      }, 300);
+
+      // 初回実行
+      setTimeout(() => {
+        customizeListView();
+        customizeTagIcon();
+      }, 500);
+    </script>
   </body>
 </html>

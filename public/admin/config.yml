@@ -2,37 +2,57 @@ backend:
   name: git-gateway
   branch: main
 
-media_folder: "public/uploads"
-public_folder: "/uploads"
+local_backend: true
+
+locale: ja
+
+media_folder: "public/images"
+public_folder: "/images"
 
 collections:
   - name: "contents"
-    label: "Contents"
+    label: "記事"
+    label_singular: "記事"
     folder: "src/content/blog"
     create: true
-    slug: "{{fields.slug}}"
+    slug: "{{year}}{{month}}{{day}}-{{hour}}{{minute}}{{second}}"
+    summary: "{{title}}|||{{date}}|||{{tags}}"
+    icon: "edit"
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Slug (URL用・英数字)", name: "slug", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "タイトル", name: "title", widget: "string" }
+      - { label: "公開日", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
       - {
-          label: "Category",
+          label: "カテゴリー",
           name: "category",
           widget: "select",
           options: ["blog", "works"],
-          default: "blog"
+          default: "blog",
+          required: false
         }
       - {
-          label: "Tags",
+          label: "タグ",
           name: "tags",
           widget: "list",
           allow_add: true,
-          required: false
+          required: false,
+          hint: "タグを入力してEnterで追加（複数追加可）"
         }
       - {
-          label: "Description",
-          name: "description",
-          widget: "string",
-          required: false
+          label: "サムネイル画像",
+          name: "thumbnail",
+          widget: "image",
+          required: false,
+          hint: "一覧ページや記事詳細ページに表示される画像です"
         }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "本文", name: "body", widget: "markdown" }
+
+  - name: "tags"
+    label: "タグ"
+    label_singular: "タグ"
+    folder: "src/content/tags"
+    create: true
+    identifier_field: name
+    slug: "{{slug}}"
+    icon: "label"
+    fields:
+      - { label: "タグ名", name: "name", widget: "string" }
