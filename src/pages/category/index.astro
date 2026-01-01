@@ -1,0 +1,117 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const allPosts = await getCollection('blog');
+
+const categoryCount = allPosts.reduce((acc, post) => {
+  const category = post.data.category;
+  if (category) {
+    acc[category] = (acc[category] || 0) + 1;
+  }
+  return acc;
+}, {} as Record<string, number>);
+
+const categories = Object.entries(categoryCount)
+  .sort((a, b) => b[1] - a[1])
+  .map(([name, count]) => ({ name, count }));
+---
+
+<BaseLayout title="カテゴリー一覧 - watarutaru.com">
+  <div class="categories-wrapper">
+    <div class="header">
+      <h1>カテゴリー一覧</h1>
+      <p class="description">全 {categories.length} カテゴリー</p>
+    </div>
+
+    <div class="categories-grid">
+      {categories.map((category) => (
+        <a href={`/category/${category.name}`} class="category-card">
+          <h2>{category.name}</h2>
+          <p class="count">{category.count} 件の記事</p>
+        </a>
+      ))}
+    </div>
+
+    <div class="back-link">
+      <a href="/blog" class="textlink">← すべての記事に戻る</a>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .categories-wrapper {
+    max-width: 610px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 2em 0;
+  }
+
+  .header {
+    margin-bottom: 3em;
+    padding-bottom: 1em;
+    border-bottom: 3px solid #ffd800;
+  }
+
+  .header h1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.5em;
+  }
+
+  .description {
+    font-size: 0.9em;
+    color: #999;
+  }
+
+  .categories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5em;
+    margin-bottom: 3em;
+  }
+
+  .category-card {
+    background: #fff;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 2em;
+    text-decoration: none;
+    transition: all 0.3s;
+    display: block;
+  }
+
+  .category-card:hover {
+    border-color: #ffd800;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .category-card h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.5em;
+  }
+
+  .category-card .count {
+    font-size: 0.9em;
+    color: #999;
+  }
+
+  .back-link {
+    margin: 3em 0 2em;
+    text-align: center;
+  }
+
+  @media (max-width: 640px) {
+    .categories-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .category-card {
+      padding: 1.5em;
+    }
+  }
+</style>

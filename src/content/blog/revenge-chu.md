@@ -1,29 +1,18 @@
 ---
 title: "リベンジ★中夜祭2015"
-slug: revenge-chu
 date: 2023-12-03T20:02:14
 category: blog
-tags: []
+tags: ["合唱", "イベント", "東葛"]
 description: "昨年のリベンジ☆合唱祭に続き、リベンジ★中夜祭2015という企画に携わっています。例によって、東葛高校のリバイ […]"
 originalUrl: "http://watarutaru.com/revenge-chu/"
 sourceUrl: "https://web.archive.org/web/20231203200214/http://watarutaru.com/revenge-chu/"
 archivedAt: 20231203200214
 ---
-# [watarutaru.com watarutaru.com](/web/20231203200214/http://watarutaru.com/)
 
-02
 
-  
+![revenge_chu01](/images/2015/05/revenge_chu01.png)
 
-May.
-
-2015.05.02
-
-## リベンジ★中夜祭2015
-
-![revenge_chu01](https://web.archive.org/web/20231203200214im_/http://watarutaru.com/wp/wp-content/uploads/2015/05/revenge_chu01.png)
-
-昨年の[リベンジ☆合唱祭](https://web.archive.org/web/20231203200214/http://watarutaru.com/g-revenge2014/ "リベンジ☆合唱祭")に続き、リベンジ★中夜祭2015という企画に携わっています。例によって、東葛高校のリバイバル企画。
+昨年の<a href="/g-revenge2014/ "リベンジ☆合唱祭"" class="button">リベンジ☆合唱祭</a>に続き、リベンジ★中夜祭2015という企画に携わっています。例によって、東葛高校のリバイバル企画。
 
 ### リベンジ★中夜祭2015って？
 
@@ -67,30 +56,14 @@ May.
 > ■場所：柏市民文化会館大ホール（１階席部分 996席）  
 > ■料金：入場無料！  
 > ■参加：全ての東葛飾高校卒業生・在学生、そして全ての東葛飾高校職員・元職員  
-> [リベンジ★中夜祭2015](https://web.archive.org/web/20231203200214/http://www.%E3%83%AA%E3%83%99%E3%83%B3%E3%82%B8%E4%B8%AD%E5%A4%9C%E7%A5%AD.xyz/)
+> <a href="https://web.archive.org/web/20231203200214/http://www.%E3%83%AA%E3%83%99%E3%83%B3%E3%82%B8%E4%B8%AD%E5%A4%9C%E7%A5%AD.xyz/" class="button">リベンジ★中夜祭2015</a>
 
 ### WEBサイトつくったよ
 
-[![revenge_chu02](https://web.archive.org/web/20231203200214im_/http://watarutaru.com/wp/wp-content/uploads/2015/05/revenge_chu02.png)](https://web.archive.org/web/20231203200214/http://www.%E3%83%AA%E3%83%99%E3%83%B3%E3%82%B8%E4%B8%AD%E5%A4%9C%E7%A5%AD.xyz/)
+[![revenge_chu02](/images/2015/05/revenge_chu02.png)](https://web.archive.org/web/20231203200214/http://www.%E3%83%AA%E3%83%99%E3%83%B3%E3%82%B8%E4%B8%AD%E5%A4%9C%E7%A5%AD.xyz/)
 
 WEBサイトつくりました。なかなかすっきりしてるでしょ。こちらについてはまた別にポストするかも。
 
 ### と、いうわけで
 
 またこういう休日プロジェクト系で時間を使っていたりします。何かひっかかるものがあれば連絡くださいな〜
-
-[ページの一番上に戻る](#top)
-
-[Facebook](https://web.archive.org/web/20231203200214/http://www.facebook.com/share.php?u=http://watarutaru.com/revenge-chu/)
-[twitter](https://web.archive.org/web/20231203200214/http://twitter.com/share?url=http://watarutaru.com/revenge-chu/&text=リベンジ★中夜祭2015-watarutaru.com)
-[Hatena](https://web.archive.org/web/20231203200214/http://b.hatena.ne.jp/entry/http://watarutaru.com/revenge-chu/ "リベンジ★中夜祭2015")
-[pocket](https://web.archive.org/web/20231203200214/http://getpocket.com/edit?url=http://watarutaru.com/revenge-chu/&title=リベンジ★中夜祭2015)
-[Google+](https://web.archive.org/web/20231203200214/https://plus.google.com/share?url=http://watarutaru.com/revenge-chu/)
-
-関連してそうな記事
-
-- [See you ‘again’ 2015.](https://web.archive.org/web/20231203200214/http://watarutaru.com/see-you-again-2015/ "See you ‘again’ 2015.")
-- [リベンジは、何度したっていい。「リベンジ☆合唱祭」今年も開催！](https://web.archive.org/web/20231203200214/http://watarutaru.com/g-revenge2015-01/ "リベンジは、何度したっていい。「リベンジ☆合唱祭」今年も開催！")
-- [リベンジ☆合唱祭2014を開催しました](https://web.archive.org/web/20231203200214/http://watarutaru.com/g-revenge2014/ "リベンジ☆合唱祭2014を開催しました")
-
-© 2023 watarutaru.com. All rights reserved.

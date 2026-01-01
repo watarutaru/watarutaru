@@ -1,29 +1,18 @@
 ---
 title: "リベンジ☆合唱祭2014を開催しました"
-slug: g-revenge2014
 date: 2023-09-27T21:12:43
 category: blog
-tags: []
+tags: ["合唱", "イベント", "東葛"]
 description: "2014/09/14(日)、松戸市民劇場にて、リベンジ☆合唱祭2014を開催しました！ 実行委員として企画・運 […]"
 originalUrl: "http://watarutaru.com/g-revenge2014/"
 sourceUrl: "https://web.archive.org/web/20230927211243/http://watarutaru.com/g-revenge2014/"
 archivedAt: 20230927211243
 ---
-# [watarutaru.com watarutaru.com](/web/20230927211243/http://watarutaru.com/)
 
-29
-
-  
-
-Sep.
-
-2014.09.29
-
-## リベンジ☆合唱祭2014を開催しました
 
 2014/09/14(日)、松戸市民劇場にて、リベンジ☆合唱祭2014を開催しました！ 実行委員として企画・運営に携わったので、やったことと思ったことなどを記録。
 
-![logo](https://web.archive.org/web/20230927211243im_/http://watarutaru.com/wp/wp-content/uploads/2014/09/logo.png)
+![logo](/images/2014/09/logo.png)
 
 ### 東葛高校の合唱祭
 
@@ -58,11 +47,11 @@ Sep.
 ワガママも言わせてもらって、WEBサイトとか、プログラムとか作らせてもらいました。  
 いろんなところが学生ノリだしお手製感満載だけど、そういうところもリベンジだったなぁと振り返り。
 
-[![g-revengeWEB](https://web.archive.org/web/20230927211243im_/http://watarutaru.com/wp/wp-content/uploads/2014/09/スクリーンショット-2014-09-17-22.35.38.png)](https://web.archive.org/web/20230927211243/http://g-revenge.com/)
+[![g-revengeWEB](/images/2014/09/スクリーンショット-2014-09-17-22.35.38.png)](https://web.archive.org/web/20230927211243/http://g-revenge.com/)
 
 ▲リベンジ☆合唱祭WEBサイト。リベンジなんだから、ダサかわいいロゴにしようよ、と。
 
-![IMGP4812_re](https://web.archive.org/web/20230927211243im_/http://watarutaru.com/wp/wp-content/uploads/2014/09/IMGP4812_re.jpg)
+![IMGP4812_re](/images/2014/09/IMGP4812_re.jpg)
 
 ▲当日プログラム。世界堂で紙を選んでプリントしただけですが、落ち着いてて気に入ってる。
 
@@ -97,19 +86,3 @@ WEB作る仕事についたと思ったらあんまり作れなかった一方�
 ### と、いうわけで
 
 リベンジ☆合唱祭、素敵なイベントにできました。皆さん本当にありがとう。
-
-[ページの一番上に戻る](#top)
-
-[Facebook](https://web.archive.org/web/20230927211243/http://www.facebook.com/share.php?u=http://watarutaru.com/g-revenge2014/)
-[twitter](https://web.archive.org/web/20230927211243/http://twitter.com/share?url=http://watarutaru.com/g-revenge2014/&text=リベンジ☆合唱祭2014を開催しました-watarutaru.com)
-[Hatena](https://web.archive.org/web/20230927211243/http://b.hatena.ne.jp/entry/http://watarutaru.com/g-revenge2014/ "リベンジ☆合唱祭2014を開催しました")
-[pocket](https://web.archive.org/web/20230927211243/http://getpocket.com/edit?url=http://watarutaru.com/g-revenge2014/&title=リベンジ☆合唱祭2014を開催しました)
-[Google+](https://web.archive.org/web/20230927211243/https://plus.google.com/share?url=http://watarutaru.com/g-revenge2014/)
-
-関連してそうな記事
-
-- [GO GO Hawa!!](https://web.archive.org/web/20230927211243/http://watarutaru.com/go-go-hawaii/ "GO GO Hawa!!")
-- [演奏情報「にばんめの一歩」が演奏されます // 宇田川吾郎と仲間たちによるコンサート](https://web.archive.org/web/20230927211243/http://watarutaru.com/concert170401/ "演奏情報「にばんめの一歩」が演奏されます // 宇田川吾郎と仲間たちによるコンサート")
-- [2016/7/31(日) 合唱団ひぐらし第23回定期演奏会「いろはのむ」に出演します！](https://web.archive.org/web/20230927211243/http://watarutaru.com/irohanomu/ "2016/7/31(日) 合唱団ひぐらし第23回定期演奏会「いろはのむ」に出演します！")
-
-© 2023 watarutaru.com. All rights reserved.

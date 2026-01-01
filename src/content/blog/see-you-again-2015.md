@@ -1,27 +1,16 @@
 ---
 title: "See you ‘again’ 2015."
-slug: see-you-again-2015
 date: 2022-05-17T16:02:09
 category: blog
-tags: []
+tags: ["合唱", "演奏", "はらわた"]
 description: "2015年にやったこと、作ったものなどのまとめ。一つ一つポストしておくマメさが足りなかったということは十分反省 […]"
 originalUrl: "http://watarutaru.com/see-you-again-2015/"
 sourceUrl: "https://web.archive.org/web/20220517160209/http://watarutaru.com/see-you-again-2015/"
 archivedAt: 20220517160209
 ---
-# [watarutaru.com watarutaru.com](/web/20220517160209/http://watarutaru.com/)
 
-05
 
-  
-
-Jan.
-
-2016.01.05
-
-## See you ‘again’ 2015.
-
-![img-2015-title](https://web.archive.org/web/20220517160209im_/http://watarutaru.com/wp/wp-content/uploads/2016/01/img-2015-title.png)  
+![img-2015-title](/images/2016/01/img-2015-title.png)  
 2015年にやったこと、作ったものなどのまとめ。一つ一つポストしておくマメさが足りなかったということは十分反省しています。
 
 ### デザイン関連
@@ -31,25 +20,25 @@ Jan.
 
 #### Mister Suite
 
-株式会社SQUEEZEさんの[「Mister Suite」](https://web.archive.org/web/20220517160209/https://www.mistersuite.com/)というホームシェア（民泊）のコンサル・運用サービスがあり、そちらのオフライン関連のデザインをいくつかお手伝いさせていただいています。
+株式会社SQUEEZEさんの<a href="https://web.archive.org/web/20220517160209/https://www.mistersuite.com/" class="button">「Mister Suite」</a>というホームシェア（民泊）のコンサル・運用サービスがあり、そちらのオフライン関連のデザインをいくつかお手伝いさせていただいています。
 
 ホームシェアはバケーションレンタルというような表現でも知られているかもしれませんが、Airbnbなどのプラットフォームを通じて旅行者がホストの家に民泊するという仕組み。「暮らすように旅行する」ことができるとして、海外では当たり前になりつつあるスタイル。「Mister Suite」は、そんな民泊の運営のコンサルティングからトータルサポートしてくれるサービスです。
 
 **＜●Welcome Guide＞**  
-民泊時のゲスト（宿泊者）に物件を紹介するサービス案内＋ウェルカムメッセージのガイドブックのデザインフォーマットを制作しました。![img-2015-welcome](https://web.archive.org/web/20220517160209im_/http://watarutaru.com/wp/wp-content/uploads/2016/01/img-2015-welcome.png)
+民泊時のゲスト（宿泊者）に物件を紹介するサービス案内＋ウェルカムメッセージのガイドブックのデザインフォーマットを制作しました。![img-2015-welcome](/images/2016/01/img-2015-welcome.png)
 
 海外の利用客が多いこともあり、物件の写真を用いた部屋の使い方から日本のマナーや近隣の季節行事・観光地までを網羅したスペシャルな資料になっています。
 
-[詳しくはこちら](https://web.archive.org/web/20220517160209/https://www.mistersuite.com/startup-package#package_cleaning)
+<a href="https://web.archive.org/web/20220517160209/https://www.mistersuite.com/startup-package#package_cleaning" class="button">詳しくはこちら</a>
 
 **＜●Mister Suite サービス紹介パンフレット＞**  
 「Mister Suite」のサービスを紹介するパンフレットをA4の8ページで制作。デザイン・レイアウトだけではなく印刷相談も担当しました。  
-サービスの細かい紹介や実際の物件の写真など内容も盛り沢山で作りごたえのあるパンフレット制作となりました。![img-2015-pamph](https://web.archive.org/web/20220517160209im_/http://watarutaru.com/wp/wp-content/uploads/2016/01/img-2015-pamph.png)
+サービスの細かい紹介や実際の物件の写真など内容も盛り沢山で作りごたえのあるパンフレット制作となりました。![img-2015-pamph](/images/2016/01/img-2015-pamph.png)
 
 #### groove
 
-代々木の美容室grooveのWebサイトを制作。デザインとフロントの実装まで。やり残しやり途中案件になっているので、今後も良くしていきたいです。詳しくは[こちらのエントリ](https://web.archive.org/web/20220517160209/http://watarutaru.com/groove-web/)で。  
-![groove_cap](https://web.archive.org/web/20220517160209im_/http://watarutaru.com/wp/wp-content/uploads/2015/07/groove_cap.png)
+代々木の美容室grooveのWebサイトを制作。デザインとフロントの実装まで。やり残しやり途中案件になっているので、今後も良くしていきたいです。詳しくは<a href="/groove-web/" class="button">こちらのエントリ</a>で。  
+![groove_cap](/images/2015/07/groove_cap.png)
 
 #### シミズメガネ
 
@@ -62,7 +51,7 @@ Jan.
 #### 円熟女子会
 
 円熟女子会は、これから円熟していくであろう女子たち（そして男子たち）の役者を集めたというコンセプトの劇団。その第二回公演となる「逢うなら夢で 〜ボクの怖い女たち〜」の宣伝美術担当として、フライヤーデザインを担当しました。  
-[![img-2015-enjuku](https://web.archive.org/web/20220517160209im_/http://watarutaru.com/wp/wp-content/uploads/2016/01/img-2015-enjuku.png)](https://web.archive.org/web/20220517160209/http://watarutaru.com/wp/wp-content/uploads/2016/01/kampake.pdf)  
+[![img-2015-enjuku](/images/2016/01/img-2015-enjuku.png)](/wp/wp-content/uploads/2016/01/kampake.pdf)  
 ▲スタッフの宣伝美術に名前を入れてもらっています！！！すごい！！！感動！！！
 
 ダブルキャストで5日間ということで大規模な公演のフライヤーでしたが、初判の台本だけちらっと見せていただいてイメージからすべて任せてもらった中で作っていけたのがとても楽しかったです。
@@ -71,12 +60,12 @@ Jan.
 
 ★実際にこちらの公演に12月頭お邪魔してきましたが、すっごく素敵なお芝居で観終わった後とても幸せな気分になりました。演出の富田さん、恐るべし……！
 
-[円熟女子会WEB](https://web.archive.org/web/20220517160209/http://enjukujoshijoho.wix.com/home#!infomation/crrl)
+<a href="https://web.archive.org/web/20220517160209/http://enjukujoshijoho.wix.com/home#!infomation/crrl" class="button">円熟女子会WEB</a>
 
 #### 書籍工暦として
 
 **＜●文学フリマガイドブック＞**  
-こちら[エントリしました](https://web.archive.org/web/20220517160209/http://watarutaru.com/bunfree-guide07/)ね。2015年春の7号、メインで担当しました。
+こちら<a href="/bunfree-guide07/" class="button">エントリしました</a>ね。2015年春の7号、メインで担当しました。
 
 **＜●第三回文学フリマ大阪公式カタログ＞**  
 こちらも実は昨年に引き続きのプロジェクトでした。今年は大きな乱丁が出ず、早めの進行ができたことが進歩だったと思います。。使いやすさを重視。
@@ -93,12 +82,12 @@ Jan.
 
 #### はらわた（合唱）
 
-![harawata-blog](https://web.archive.org/web/20220517160209im_/http://watarutaru.com/wp/wp-content/uploads/2015/09/harawata-blog1.jpg)  
-こちらはいくつかこのブログでもきちんとしたエントリを上げているのでお馴染み。僕の書いた曲を企画のチームとして演奏しているものです。今年は[「Ver.2」で7月の東京都合唱祭](https://web.archive.org/web/20220517160209/http://watarutaru.com/nibammenoippo/)、「Ver.2.1」として11月のリベンジ☆合唱祭にそれぞれ参加してきました。
+![harawata-blog](/images/2015/09/harawata-blog1.jpg)  
+こちらはいくつかこのブログでもきちんとしたエントリを上げているのでお馴染み。僕の書いた曲を企画のチームとして演奏しているものです。今年は<a href="/nibammenoippo/" class="button">「Ver.2」で7月の東京都合唱祭</a>、「Ver.2.1」として11月のリベンジ☆合唱祭にそれぞれ参加してきました。
 
 あちこちパートを回されて、ついに本番という場所で一部ソプラノデビューまで果たした。
 
-[「はらわた」プレイリスト](https://web.archive.org/web/20220517160209/https://www.youtube.com/playlist?list=PL_IeGZQZ1nxJBjYKpH6QRcqS0uEZsebQ-)
+<a href="https://web.archive.org/web/20220517160209/https://www.youtube.com/playlist?list=PL_IeGZQZ1nxJBjYKpH6QRcqS0uEZsebQ-" class="button">「はらわた」プレイリスト</a>
 
 #### はらおか（男声カルテット）
 
@@ -115,7 +104,7 @@ Jan.
 
 #### 熊々舎男声合唱団 がんばれ！ベアーズ（合唱）
 
-![Bearslogo](https://web.archive.org/web/20220517160209im_/http://watarutaru.com/wp/wp-content/uploads/2016/01/Bearslogo.png)  
+![Bearslogo](/images/2016/01/Bearslogo.png)  
 野本カントク率いる男声合唱団「がんばれ！ベアーズ」の初舞台が8月にありました。森の音楽会@オリンピックセンター小ホール。年明けごろから本格的に参加させてもらって、最初は練習もそこそこに飲んでばかりいたような気がする合唱団でしたが、気がつけばちゃんと歌える(?)ように……！ オリジナルのユニフォームまで作る突き抜けた感じがすき。Tシャツ用にロゴをデザインしましたよ。
 
 演奏したのは、WIliam Byrdによる3声のミサから2つと、林光作品
@@ -161,7 +150,7 @@ Jan.
 
 荻窪のライブカフェ、アルカフェを中心にしたポップスクワイアの集まりがアルカフェクワイア。夏の合唱祭にもお誘いいただいていたけれど、当時はまだキャパシティもなく（そして実は密かに転職活動的なことをちょっとだけしていたので；結局辞めましたが）12月のクリスマスコンサートに向けてのフェーズから参加させてもらい、荻窪から遠くに引っ越した後に散々荻窪まで足繁く通うハメになりました。
 
-前述のHaraJoviもポップスだし、ここでは詳しく書かないけど[別途エントリした表参道高校合唱部！のアレンジ作品を歌ってみるあつまり](https://web.archive.org/web/20220517160209/http://watarutaru.com/drama-omoko/)もポップス由来だし、バーバーショップにも触れたし、そもそもはらわたで書いてる曲なんてポップスの作りだし……。
+前述のHaraJoviもポップスだし、ここでは詳しく書かないけど<a href="/drama-omoko/" class="button">別途エントリした表参道高校合唱部！のアレンジ作品を歌ってみるあつまり</a>もポップス由来だし、バーバーショップにも触れたし、そもそもはらわたで書いてる曲なんてポップスの作りだし……。
 
 今年はポップス×合唱というのが一つの（後付の）テーマというかキーワードになっていたということを振り返りながら、アルカフェクワイアでその集大成というか、かけらを拾い集めてどうにかそれをまとめて輝かせようとしているような状態だったなぁと思いました。耳馴染みのあるクリスマスソングばーっかり集めたコンサート。最高に楽しかったです。あと僕は英語が苦手です。
 
@@ -207,12 +196,12 @@ Nelly’s…は、イントロ、Aメロ、Bメロ、サビ……と構成をバ
 
 #### リベンジ★中夜祭
 
-![revenge_chu01](https://web.archive.org/web/20220517160209im_/http://watarutaru.com/wp/wp-content/uploads/2015/05/revenge_chu01.png)  
+![revenge_chu01](/images/2015/05/revenge_chu01.png)  
 東葛飾高校の文化祭（中夜祭）を大人になった今もう一度、思うように動けなかった部分もあったけれど、またどんでもなくバカなことを一応形になるまでやってしまったなぁというのだけは残っている。イベントを通したデザインのトーンとかって言う部分で見られたのが楽しかった。あとやっぱり学校っていうのは素敵だ。たくさん忘れ物をしてきたと思うけど、こうやって拾いに行くとまだそこに落ちたままでいてくれる。
 
 #### リベンジ☆合唱祭
 
-![revenge-gassai_title](https://web.archive.org/web/20220517160209im_/http://watarutaru.com/wp/wp-content/uploads/2015/09/revenge-gassai_title.jpg)  
+![revenge-gassai_title](/images/2015/09/revenge-gassai_title.jpg)  
 もう上述と同様雑な振り返りになるけれど、こちらは2年目となるリベンジ企画で、去年より少し薄めの運営へのかかわりになってしまったかもしれないが、いろんなタイミングとかに恵まれて、（イベントの出発点である東葛高校OBOGではない）外部の人をかなり巻き込んだ物にできたことが満足。それが、内輪だからってはねのけられるのではないか、と余計なことを考えていたことも今では少し恥ずかしい。こちらのイベントはなんだか今回でポッキリ終わってしまうものでも無さそうな雰囲気。さてどうなることやら。むにゃむにゃ。
 
 ### お出かけなど
@@ -221,7 +210,7 @@ Nelly’s…は、イントロ、Aメロ、Bメロ、サビ……と構成をバ
 
 ### と、いうわけで……
 
-![img-2015-title2](https://web.archive.org/web/20220517160209im_/http://watarutaru.com/wp/wp-content/uploads/2016/01/img-2015-title2.png)  
+![img-2015-title2](/images/2016/01/img-2015-title2.png)  
 2015年、大したことのない年だったかなぁとも思ってしまうほどだったけれど、一つ一つ思い返していくとそんなことは全く無かった。むしろいつ本業の仕事してたんだオレ。とはいえそっちも、思いつきで朝早く行くようにしてみた時期もあったし、手当たり次第にセミナーや勉強会に顔をだす時期があったり、結構好き放題働いた（不思議な言い回しだが）ような気がしています。あー楽しい一年やったわ。
 
 2016年の目標は、2015年の後半でもう決めていました。じゃあその時から実践しろよという感じですが、何か意識的な区切りや外部要因に思える環境的なものって、意外と使いやすいのよ。
@@ -231,19 +220,3 @@ Nelly’s…は、イントロ、Aメロ、Bメロ、サビ……と構成をバ
 きっと仕事でもなんでも、ここは【時じゃない】と思った時は要領よく過ごし、ここぞというときに火事場の馬鹿力が出せるようなのが次のステージの大人というものなのではないかな、と思っているのです。
 
 そんなわけで、今年もどうぞみなさま、よろしくお願い致します。
-
-[ページの一番上に戻る](#top)
-
-[Facebook](https://web.archive.org/web/20220517160209/http://www.facebook.com/share.php?u=http://watarutaru.com/see-you-again-2015/)
-[twitter](https://web.archive.org/web/20220517160209/http://twitter.com/share?url=http://watarutaru.com/see-you-again-2015/&text=See you ‘again’ 2015.-watarutaru.com)
-[Hatena](https://web.archive.org/web/20220517160209/http://b.hatena.ne.jp/entry/http://watarutaru.com/see-you-again-2015/ "See you ‘again’ 2015.")
-[pocket](https://web.archive.org/web/20220517160209/http://getpocket.com/edit?url=http://watarutaru.com/see-you-again-2015/&title=See you ‘again’ 2015.)
-[Google+](https://web.archive.org/web/20220517160209/https://plus.google.com/share?url=http://watarutaru.com/see-you-again-2015/)
-
-関連してそうな記事
-
-- [GO GO Hawa!!](https://web.archive.org/web/20220517160209/http://watarutaru.com/go-go-hawaii/ "GO GO Hawa!!")
-- [演奏情報「にばんめの一歩」が演奏されます // 宇田川吾郎と仲間たちによるコンサート](https://web.archive.org/web/20220517160209/http://watarutaru.com/concert170401/ "演奏情報「にばんめの一歩」が演奏されます // 宇田川吾郎と仲間たちによるコンサート")
-- [2016/7/31(日) 合唱団ひぐらし第23回定期演奏会「いろはのむ」に出演します！](https://web.archive.org/web/20220517160209/http://watarutaru.com/irohanomu/ "2016/7/31(日) 合唱団ひぐらし第23回定期演奏会「いろはのむ」に出演します！")
-
-© 2022 watarutaru.com. All rights reserved.

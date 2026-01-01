@@ -1,25 +1,14 @@
 ---
 title: "今、わたまるラジオ vol.7放送しました"
-slug: imawatamaru07
 date: 2023-12-03T19:46:51
 category: blog
-tags: []
+tags: ["ラジオ", "今わたまるラジオ"]
 description: "11/23(日)今、わたまるラジオvol.7放送しました！ 新企画2個が（聴いてくれた人はどうかわからないけど […]"
 originalUrl: "http://watarutaru.com/imawatamaru07/"
 sourceUrl: "https://web.archive.org/web/20231203194651/http://watarutaru.com/imawatamaru07/"
 archivedAt: 20231203194651
 ---
-# [watarutaru.com watarutaru.com](/web/20231203194651/http://watarutaru.com/)
 
-10
-
-  
-
-Dec.
-
-2014.12.10
-
-## 今、わたまるラジオ vol.7放送しました
 
 11/23(日)今、わたまるラジオvol.7放送しました！ 新企画2個が（聴いてくれた人はどうかわからないけど）やってる身からして死ぬほど楽しかったので、幸せでした。アーカイブぜひ聞いて欲しいです。
 
@@ -47,9 +36,9 @@ Dec.
 
 ギャラバって何？いや、それは誰にもわからない。圧倒的未知の世界の単語を使って探りあいながら会話を成立させる新企画！ なんで「ギャラバ」なの？というのには、こちらのマンガをご覧頂きたい。とある日のTwitterにて、TLに颯爽と現れた破壊力ある1ページマンガです。
 
-> 【１ページ漫画】何がわからないの？ [pic.twitter.com/RDEgjS9WuF](https://web.archive.org/web/20231203194651/http://t.co/RDEgjS9WuF)
+> 【１ページ漫画】何がわからないの？ <a href="https://web.archive.org/web/20231203194651/http://t.co/RDEgjS9WuF" class="button">pic.twitter.com/RDEgjS9WuF</a>
 >
-> — y80jp (@y80jp) [2014, 10月 28](https://web.archive.org/web/20231203194651/https://twitter.com/y80jp/status/526889472529408001)
+> — y80jp (@y80jp) <a href="https://web.archive.org/web/20231203194651/https://twitter.com/y80jp/status/526889472529408001" class="button">2014, 10月 28</a>
 
 この秀逸さすごく好き。というのと、言葉のセンスがやばい。「ブルーゾーンでギャラバするだけじゃん！！」で3人大爆笑。そんなところから、圧倒的に知らない単語を元に会話していくゲーム感覚の企画が生まれました。
 
@@ -61,18 +50,3 @@ Dec.
 ### と、いうわけで
 
 今回も楽しくできました。ありがとうございました。
-
-[ページの一番上に戻る](#top)
-
-[Facebook](https://web.archive.org/web/20231203194651/http://www.facebook.com/share.php?u=http://watarutaru.com/imawatamaru07/)
-[twitter](https://web.archive.org/web/20231203194651/http://twitter.com/share?url=http://watarutaru.com/imawatamaru07/&text=今、わたまるラジオ vol.7放送しました-watarutaru.com)
-[Hatena](https://web.archive.org/web/20231203194651/http://b.hatena.ne.jp/entry/http://watarutaru.com/imawatamaru07/ "今、わたまるラジオ vol.7放送しました")
-[pocket](https://web.archive.org/web/20231203194651/http://getpocket.com/edit?url=http://watarutaru.com/imawatamaru07/&title=今、わたまるラジオ vol.7放送しました)
-[Google+](https://web.archive.org/web/20231203194651/https://plus.google.com/share?url=http://watarutaru.com/imawatamaru07/)
-
-関連してそうな記事
-
-- [今、わたまるラジオ（仮）vol.6放送しました](https://web.archive.org/web/20231203194651/http://watarutaru.com/imawatamaru-vol6/ "今、わたまるラジオ（仮）vol.6放送しました")
-- [［お知らせ］10/11（土）夜23:00～　今、わたまるラジオVol.6やります！](https://web.archive.org/web/20231203194651/http://watarutaru.com/imawatamaru6/ "［お知らせ］10/11（土）夜23:00～　今、わたまるラジオVol.6やります！")
-
-© 2023 watarutaru.com. All rights reserved.

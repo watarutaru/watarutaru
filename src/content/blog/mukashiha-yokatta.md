@@ -1,25 +1,14 @@
 ---
 title: "「昔は良かったなぁ」「最近の若者は」議論に思うこと"
-slug: mukashiha-yokatta
 date: 2023-12-03T21:11:39
 category: blog
-tags: []
+tags: ["合唱", "エッセイ"]
 description: "「最近の若者は」って言われることを過剰に嫌う人も結構いるけれど、僕はそうでもないなぁと思う。でももしかしてそれ […]"
 originalUrl: "http://watarutaru.com/mukashiha-yokatta/"
 sourceUrl: "https://web.archive.org/web/20231203211139/http://watarutaru.com/mukashiha-yokatta/"
 archivedAt: 20231203211139
 ---
-# [watarutaru.com watarutaru.com](/web/20231203211139/http://watarutaru.com/)
 
-03
-
-  
-
-Oct.
-
-2014.10.03
-
-## 「昔は良かったなぁ」「最近の若者は」議論に思うこと
 
 「最近の若者は」って言われることを過剰に嫌う人も結構いるけれど、僕はそうでもないなぁと思う。でももしかしてそれって、少なくとも頭が「最近の若者」だと自覚できていないことなんじゃないかって少し心配しています。
 
@@ -61,19 +50,3 @@ Oct.
 ### と、いうわけで
 
 「最近の若者は」と言われてカチンときたら、「ああこの人は年をとって経験値のある自分の薄い感動値の中で生きているという自覚がないんだなぁ」と思ってみたらすこしスッキリするかも。
-
-[ページの一番上に戻る](#top)
-
-[Facebook](https://web.archive.org/web/20231203211139/http://www.facebook.com/share.php?u=http://watarutaru.com/mukashiha-yokatta/)
-[twitter](https://web.archive.org/web/20231203211139/http://twitter.com/share?url=http://watarutaru.com/mukashiha-yokatta/&text=「昔は良かったなぁ」「最近の若者は」議論に思うこと-watarutaru.com)
-[Hatena](https://web.archive.org/web/20231203211139/http://b.hatena.ne.jp/entry/http://watarutaru.com/mukashiha-yokatta/ "「昔は良かったなぁ」「最近の若者は」議論に思うこと")
-[pocket](https://web.archive.org/web/20231203211139/http://getpocket.com/edit?url=http://watarutaru.com/mukashiha-yokatta/&title=「昔は良かったなぁ」「最近の若者は」議論に思うこと)
-[Google+](https://web.archive.org/web/20231203211139/https://plus.google.com/share?url=http://watarutaru.com/mukashiha-yokatta/)
-
-関連してそうな記事
-
-- [非日常の魔法](https://web.archive.org/web/20231203211139/http://watarutaru.com/170323_essay/ "非日常の魔法")
-- [高円寺から深川へ（転居記：Facebookから転記）](https://web.archive.org/web/20231203211139/http://watarutaru.com/tenkyoki/ "高円寺から深川へ（転居記：Facebookから転記）")
-- [風とサボタージュ](https://web.archive.org/web/20231203211139/http://watarutaru.com/20150915/ "風とサボタージュ")
-
-© 2023 watarutaru.com. All rights reserved.

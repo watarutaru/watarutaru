@@ -1,25 +1,14 @@
 ---
 title: "今、わたまるラジオ（仮）vol.6放送しました"
-slug: imawatamaru-vol6
 date: 2023-12-03T21:16:11
 category: blog
-tags: []
+tags: ["ラジオ", "今わたまるラジオ"]
 description: "今、わたまるラジオ放送しました。毎回徐々にいろんな人に猛プッシュして(笑)聞いていただいていて、楽しくやらせて […]"
 originalUrl: "http://watarutaru.com/imawatamaru-vol6/"
 sourceUrl: "https://web.archive.org/web/20231203211611/http://watarutaru.com/imawatamaru-vol6/"
 archivedAt: 20231203211611
 ---
-# [watarutaru.com watarutaru.com](/web/20231203211611/http://watarutaru.com/)
 
-14
-
-  
-
-Oct.
-
-2014.10.14
-
-## 今、わたまるラジオ（仮）vol.6放送しました
 
 今、わたまるラジオ放送しました。毎回徐々にいろんな人に猛プッシュして(笑)聞いていただいていて、楽しくやらせてもらっています！
 
@@ -53,18 +42,3 @@ Cメロ部門。鬼束ちひろが圧倒的ダークホースだった。ぜひC
 ### と、いうわけで
 
 今、わたまるチームでラジオ以外にもいろいろ企んでいきたいなぁと思っています。もちろん！ラジオもガンガンやっていくので、次回もぜひお聞きあれ〜。
-
-[ページの一番上に戻る](#top)
-
-[Facebook](https://web.archive.org/web/20231203211611/http://www.facebook.com/share.php?u=http://watarutaru.com/imawatamaru-vol6/)
-[twitter](https://web.archive.org/web/20231203211611/http://twitter.com/share?url=http://watarutaru.com/imawatamaru-vol6/&text=今、わたまるラジオ（仮）vol.6放送しました-watarutaru.com)
-[Hatena](https://web.archive.org/web/20231203211611/http://b.hatena.ne.jp/entry/http://watarutaru.com/imawatamaru-vol6/ "今、わたまるラジオ（仮）vol.6放送しました")
-[pocket](https://web.archive.org/web/20231203211611/http://getpocket.com/edit?url=http://watarutaru.com/imawatamaru-vol6/&title=今、わたまるラジオ（仮）vol.6放送しました)
-[Google+](https://web.archive.org/web/20231203211611/https://plus.google.com/share?url=http://watarutaru.com/imawatamaru-vol6/)
-
-関連してそうな記事
-
-- [今、わたまるラジオ vol.7放送しました](https://web.archive.org/web/20231203211611/http://watarutaru.com/imawatamaru07/ "今、わたまるラジオ vol.7放送しました")
-- [［お知らせ］10/11（土）夜23:00～　今、わたまるラジオVol.6やります！](https://web.archive.org/web/20231203211611/http://watarutaru.com/imawatamaru6/ "［お知らせ］10/11（土）夜23:00～　今、わたまるラジオVol.6やります！")
-
-© 2023 watarutaru.com. All rights reserved.

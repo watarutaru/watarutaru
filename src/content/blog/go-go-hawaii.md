@@ -1,25 +1,14 @@
 ---
 title: "GO GO Hawa!!"
-slug: go-go-hawaii
 date: 2022-03-07T12:38:07
 category: blog
-tags: []
+tags: ["旅行", "ハワイ"]
 description: "GO GO Hawa!! 詞・曲　Wataru Saito 地下鉄乗り継いで今日も巨大迷路向かう 積み木崩しに […]"
 originalUrl: "http://watarutaru.com/go-go-hawaii/"
 sourceUrl: "https://web.archive.org/web/20220307123807/http://watarutaru.com/go-go-hawaii/"
 archivedAt: 20220307123807
 ---
-# [watarutaru.com watarutaru.com](/web/20220329111203/http://watarutaru.com/)
 
-24
-
-  
-
-Oct.
-
-2017.10.24
-
-## GO GO Hawa!!
 
 GO GO Hawa!!  
 詞・曲　Wataru Saito
@@ -74,19 +63,3 @@ GO GO Hawa!!
 ### と、いうわけで
 
 10/8のたま感2017で発表した新曲「Go Go Hawa!!」の歌詞をポストしておきます。どこかでまた演奏しよう
-
-[ページの一番上に戻る](#top)
-
-[Facebook](https://web.archive.org/web/20220329111203/http://www.facebook.com/share.php?u=http://watarutaru.com/go-go-hawaii/)
-[twitter](https://web.archive.org/web/20220329111203/http://twitter.com/share?url=http://watarutaru.com/go-go-hawaii/&text=GO GO Hawa!!-watarutaru.com)
-[Hatena](https://web.archive.org/web/20220329111203/http://b.hatena.ne.jp/entry/http://watarutaru.com/go-go-hawaii/ "GO GO Hawa!!")
-[pocket](https://web.archive.org/web/20220329111203/http://getpocket.com/edit?url=http://watarutaru.com/go-go-hawaii/&title=GO GO Hawa!!)
-[Google+](https://web.archive.org/web/20220329111203/https://plus.google.com/share?url=http://watarutaru.com/go-go-hawaii/)
-
-関連してそうな記事
-
-- [演奏情報「にばんめの一歩」が演奏されます // 宇田川吾郎と仲間たちによるコンサート](https://web.archive.org/web/20220329111203/http://watarutaru.com/concert170401/ "演奏情報「にばんめの一歩」が演奏されます // 宇田川吾郎と仲間たちによるコンサート")
-- [笑いばなしをしよう // 2016年のはらわた用に新曲を書きました（楽譜あり）](https://web.archive.org/web/20220329111203/http://watarutaru.com/waraibanashiwoshiyo/ "笑いばなしをしよう // 2016年のはらわた用に新曲を書きました（楽譜あり）")
-- [See you ‘again’ 2015.](https://web.archive.org/web/20220329111203/http://watarutaru.com/see-you-again-2015/ "See you ‘again’ 2015.")
-
-© 2022 watarutaru.com. All rights reserved.

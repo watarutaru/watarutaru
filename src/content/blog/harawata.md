@@ -1,27 +1,16 @@
 ---
 title: "企画であつまる合唱チーム「はらわた」"
-slug: harawata
 date: 2023-12-03T19:32:18
 category: blog
-tags: []
+tags: ["合唱", "はらわた", "演奏"]
 description: "東京都合唱祭に参加した話で何度か話題にはしたけれど、企画の合唱チームである「はらわた」についてまとめて書いたと […]"
 originalUrl: "http://watarutaru.com/harawata/"
 sourceUrl: "https://web.archive.org/web/20231203193218/http://watarutaru.com/harawata/"
 archivedAt: 20231203193218
 ---
-# [watarutaru.com watarutaru.com](/web/20231203193218/http://watarutaru.com/)
 
-17
 
-  
-
-Sep.
-
-2015.09.17
-
-## 企画であつまる合唱チーム「はらわた」
-
-![harawata-blog](https://web.archive.org/web/20231203193218im_/http://watarutaru.com/wp/wp-content/uploads/2015/09/harawata-blog1-1024x336.jpg)  
+![harawata-blog](/images/2015/09/harawata-blog1-1024x336.jpg)  
 東京都合唱祭に参加した話で何度か話題にはしたけれど、企画の合唱チームである「はらわた」についてまとめて書いたところがなかったのでここで書いておこうかな。
 
 ### 「はらわた」のはじまり
@@ -40,7 +29,7 @@ Sep.
 
 原田とわたるだから「はらわた」でいいよね？　そんな感じで東京都合唱祭のプログラムに提出。ああ、世の中の決まり事というのは心が追いつく前にもこういう”締切ごと”のお陰で決断されていくことも多いんだろうなぁと思いを馳せる。
 
-この時に演奏したのが次の2曲。大事なことは、はらわたでの演奏のために、ブラッシュアップ（というと聞こえはよくなるけれど、ひどかったところをリライト）しての演奏。くわしくは[このへん](https://web.archive.org/web/20231203193218/http://watarutaru.com/daijinakoto/)を。
+この時に演奏したのが次の2曲。大事なことは、はらわたでの演奏のために、ブラッシュアップ（というと聞こえはよくなるけれど、ひどかったところをリライト）しての演奏。くわしくは<a href="/daijinakoto/" class="button">このへん</a>を。
 
 #### 「大事なこと」作：斉藤航
 
@@ -53,7 +42,7 @@ Sep.
 
 田中達也先生による「大事なこと」のアレンジが決まって、さあやるか、となった「はらわたver.2.0」。新曲も書いて挑戦した2ndステージです。
 
-この時に演奏したのが次の2曲。新曲の「にばんめの一歩」についてくわしくは[このへん](https://web.archive.org/web/20231203193218/http://watarutaru.com/nibammenoippo/)を。
+この時に演奏したのが次の2曲。新曲の「にばんめの一歩」についてくわしくは<a href="/nibammenoippo/" class="button">このへん</a>を。
 
 #### 「大事なこと」作：斉藤航／編曲：田中達也
 
@@ -77,20 +66,4 @@ Sep.
 合唱団ではないのでいつか消えてしまうかもしれないけれど、一方で続けることが目的になって形骸化することも無いといえるかもしれない。そんな企画の合唱チーム「はらわた」今後もよろしくお願いします。  
 そうそう、Youtubeで「はらわた」の演奏曲プレイリストをぜひお気に入りしておいてくださいね。
 
-[「はらわた」プレイリスト](https://web.archive.org/web/20231203193218/https://www.youtube.com/playlist?list=PL_IeGZQZ1nxJBjYKpH6QRcqS0uEZsebQ-)
-
-[ページの一番上に戻る](#top)
-
-[Facebook](https://web.archive.org/web/20231203193218/http://www.facebook.com/share.php?u=http://watarutaru.com/harawata/)
-[twitter](https://web.archive.org/web/20231203193218/http://twitter.com/share?url=http://watarutaru.com/harawata/&text=企画であつまる合唱チーム「はらわた」-watarutaru.com)
-[Hatena](https://web.archive.org/web/20231203193218/http://b.hatena.ne.jp/entry/http://watarutaru.com/harawata/ "企画であつまる合唱チーム「はらわた」")
-[pocket](https://web.archive.org/web/20231203193218/http://getpocket.com/edit?url=http://watarutaru.com/harawata/&title=企画であつまる合唱チーム「はらわた」)
-[Google+](https://web.archive.org/web/20231203193218/https://plus.google.com/share?url=http://watarutaru.com/harawata/)
-
-関連してそうな記事
-
-- [演奏情報「にばんめの一歩」が演奏されます // 宇田川吾郎と仲間たちによるコンサート](https://web.archive.org/web/20231203193218/http://watarutaru.com/concert170401/ "演奏情報「にばんめの一歩」が演奏されます // 宇田川吾郎と仲間たちによるコンサート")
-- [2016/7/31(日) 合唱団ひぐらし第23回定期演奏会「いろはのむ」に出演します！](https://web.archive.org/web/20231203193218/http://watarutaru.com/irohanomu/ "2016/7/31(日) 合唱団ひぐらし第23回定期演奏会「いろはのむ」に出演します！")
-- [笑いばなしをしよう // 2016年のはらわた用に新曲を書きました（楽譜あり）](https://web.archive.org/web/20231203193218/http://watarutaru.com/waraibanashiwoshiyo/ "笑いばなしをしよう // 2016年のはらわた用に新曲を書きました（楽譜あり）")
-
-© 2023 watarutaru.com. All rights reserved.
+<a href="https://web.archive.org/web/20231203193218/https://www.youtube.com/playlist?list=PL_IeGZQZ1nxJBjYKpH6QRcqS0uEZsebQ-" class="button">「はらわた」プレイリスト</a>

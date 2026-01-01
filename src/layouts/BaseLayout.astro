@@ -1,0 +1,176 @@
+---
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { title = 'watarutaru.com', description = '' } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    {description && <meta name="description" content={description} />}
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;600&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles/global.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <header id="header">
+        <h1>
+          <a href="/">
+            <img src="/images/logo.svg" alt="watarutaru.com" />
+            <p>watarutaru.com</p>
+          </a>
+        </h1>
+        <nav class="menu">
+          <ul class="clearfix">
+            <li><a href="/blog">blog</a></li>
+            <li><a href="/works">works</a></li>
+            <li class="last"><a href="/profile">profile</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="main">
+        <slot />
+      </div>
+
+      <footer id="footer">
+        <p>&copy; {new Date().getFullYear()} watarutaru.com. All rights reserved.</p>
+      </footer>
+    </div>
+  </body>
+</html>
+
+<style>
+  #wrapper {
+    background-color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main {
+    background-color: #fafaf7;
+    padding: 1px 0 1px;
+    flex: 1;
+  }
+
+  h1 {
+    margin: 3em auto 1em;
+    width: 100px;
+    position: relative;
+    text-align: center;
+    font-size: 1em;
+  }
+
+  #header h1 a {
+    display: block;
+    text-decoration: none;
+  }
+
+  #header h1 a img {
+    width: 72px;
+    margin: 0 auto 0.24em;
+    transition: transform 0.8s ease-in;
+  }
+
+  #header h1 a img:hover {
+    animation: spin 0.8s ease-in 1;
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg) scale(1, 1); }
+    60% { transform: rotate(1440deg) scale(1, 1); }
+    76% { transform: rotate(0) scale(0.1, 0.1); }
+    78% { transform: rotate(0) scale(1.2, 1.2); }
+    88% { transform: rotate(0) scale(1, 1); }
+    90% { transform: rotate(0) scale(1.1, 1.1); }
+    100% { transform: rotate(0) scale(1, 1); }
+  }
+
+  #header h1 a p {
+    font-family: "Dosis", sans-serif;
+    font-size: 14px;
+    line-height: 1em;
+    letter-spacing: 0.03em;
+    color: #444;
+  }
+
+  #header .menu {
+    margin: 1.4em auto 2.4em;
+    width: 60%;
+    max-width: 180px;
+  }
+
+  .menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 1.2em;
+    display: flex;
+    justify-content: center;
+  }
+
+  .menu li {
+    padding: 0;
+    margin: 0;
+  }
+
+  .menu li a {
+    display: block;
+    border-right: 1px solid #666;
+    padding: 0 3px;
+    text-decoration: none;
+    color: #444;
+    width: 50px;
+    margin: 1px;
+    text-align: center;
+    font-size: 0.83em;
+  }
+
+  .menu li.last a {
+    border: 0;
+    border-right: none;
+  }
+
+  .menu li a:hover {
+    color: rgba(30, 30, 30, 0.5);
+  }
+
+  #footer {
+    background: #444;
+    padding: 0.5em 0 0.4em;
+  }
+
+  #footer p {
+    display: block;
+    max-width: 610px;
+    width: 90%;
+    text-align: right;
+    margin: 0 auto;
+    font-size: 0.83em;
+    color: #fff;
+  }
+
+  @media (max-width: 640px) {
+    h1 {
+      margin: 2em auto 1em;
+    }
+
+    #header h1 a img {
+      width: 60px;
+    }
+
+    #header .menu {
+      min-width: 180px;
+    }
+  }
+</style>

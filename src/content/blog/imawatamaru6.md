@@ -1,27 +1,16 @@
 ---
 title: "［お知らせ］10/11（土）夜23:00～　今、わたまるラジオVol.6やります！"
-slug: imawatamaru6
 date: 2023-06-02T11:47:19
 category: blog
-tags: []
+tags: ["ラジオ", "今わたまるラジオ"]
 description: "「今、わたまるラジオ」やります！　意外と第6回放送になる今回。思ったより頻繁に放送できてるんだなぁ。大阪の今さ […]"
 originalUrl: "http://watarutaru.com/imawatamaru6/"
 sourceUrl: "https://web.archive.org/web/20230602114719/http://watarutaru.com/imawatamaru6/"
 archivedAt: 20230602114719
 ---
-# [watarutaru.com watarutaru.com](/web/20230602114719/http://watarutaru.com/)
 
-10
 
-  
-
-Oct.
-
-2014.10.10
-
-## ［お知らせ］10/11（土）夜23:00～　今、わたまるラジオVol.6やります！
-
-![radio](https://web.archive.org/web/20230602114719im_/http://watarutaru.com/wp/wp-content/uploads/2014/10/radio-e1412875995307.jpg)
+![radio](/images/2014/10/radio-e1412875995307.jpg)
 
 「今、わたまるラジオ」やります！　意外と第6回放送になる今回。思ったより頻繁に放送できてるんだなぁ。大阪の今さんと、新社会人のたまると、朝寝て夜仕事するわたると、少しでも時間が合うことは幸せですね。
 
@@ -78,29 +67,14 @@ Oct.
 > 今わたまるラジオ配信予定です！フォロワーの皆様、どうか、どうか聴いてください。
 > by今
 >
-> — 今、わたまるラジオ（仮） (@imawatamaru) [2014, 10月 8](https://web.archive.org/web/20230602114719/https://twitter.com/imawatamaru/status/519892995915542529)
+> — 今、わたまるラジオ（仮） (@imawatamaru) <a href="https://web.archive.org/web/20230602114719/https://twitter.com/imawatamaru/status/519892995915542529" class="button">2014, 10月 8</a>
 
-> ひそかにTumblrやってます。お知らせとか、今後はいろんな企画ものも流していきたい。（わ） [http://t.co/QBLzRTHXvo](https://web.archive.org/web/20230602114719/http://t.co/QBLzRTHXvo)
+> ひそかにTumblrやってます。お知らせとか、今後はいろんな企画ものも流していきたい。（わ） <a href="https://web.archive.org/web/20230602114719/http://t.co/QBLzRTHXvo" class="button">http://t.co/QBLzRTHXvo</a>
 >
-> — 今、わたまるラジオ（仮） (@imawatamaru) [2014, 10月 9](https://web.archive.org/web/20230602114719/https://twitter.com/imawatamaru/status/520282508479721472)
+> — 今、わたまるラジオ（仮） (@imawatamaru) <a href="https://web.archive.org/web/20230602114719/https://twitter.com/imawatamaru/status/520282508479721472" class="button">2014, 10月 9</a>
 
 すべからくチェックせよ！！！
 
 ### と、いうわけで……
 
 お知らせ＆ラジオの紹介でした。お楽しみに～～！
-
-[ページの一番上に戻る](#top)
-
-[Facebook](https://web.archive.org/web/20230602114719/http://www.facebook.com/share.php?u=http://watarutaru.com/imawatamaru6/)
-[twitter](https://web.archive.org/web/20230602114719/http://twitter.com/share?url=http://watarutaru.com/imawatamaru6/&text=［お知らせ］10/11（土）夜23:00～　今、わたまるラジオVol.6やります！-watarutaru.com)
-[Hatena](https://web.archive.org/web/20230602114719/http://b.hatena.ne.jp/entry/http://watarutaru.com/imawatamaru6/ "［お知らせ］10/11（土）夜23:00～　今、わたまるラジオVol.6やります！")
-[pocket](https://web.archive.org/web/20230602114719/http://getpocket.com/edit?url=http://watarutaru.com/imawatamaru6/&title=［お知らせ］10/11（土）夜23:00～　今、わたまるラジオVol.6やります！)
-[Google+](https://web.archive.org/web/20230602114719/https://plus.google.com/share?url=http://watarutaru.com/imawatamaru6/)
-
-関連してそうな記事
-
-- [今、わたまるラジオ vol.7放送しました](https://web.archive.org/web/20230602114719/http://watarutaru.com/imawatamaru07/ "今、わたまるラジオ vol.7放送しました")
-- [今、わたまるラジオ（仮）vol.6放送しました](https://web.archive.org/web/20230602114719/http://watarutaru.com/imawatamaru-vol6/ "今、わたまるラジオ（仮）vol.6放送しました")
-
-© 2023 watarutaru.com. All rights reserved.

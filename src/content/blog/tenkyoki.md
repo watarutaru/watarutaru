@@ -1,25 +1,14 @@
 ---
 title: "高円寺から深川へ（転居記：Facebookから転記）"
-slug: tenkyoki
 date: 2023-09-27T22:12:50
 category: blog
-tags: []
+tags: ["エッセイ", "転職"]
 description: "江東区の深川エリアに引っ越しました。 駅でいうと、清澄白河と門前仲町の間ぐらい。清澄庭園の向かいだから、清澄白 […]"
 originalUrl: "http://watarutaru.com/tenkyoki/"
 sourceUrl: "https://web.archive.org/web/20230927221250/http://watarutaru.com/tenkyoki/"
 archivedAt: 20230927221250
 ---
-# [watarutaru.com watarutaru.com](/web/20230927221250/http://watarutaru.com/)
 
-03
-
-  
-
-Nov.
-
-2015.11.03
-
-## 高円寺から深川へ（転居記：Facebookから転記）
 
 江東区の深川エリアに引っ越しました。  
 駅でいうと、清澄白河と門前仲町の間ぐらい。清澄庭園の向かいだから、清澄白河駅のほうが少し近く。木場公園と現代美術館もすぐに行ける距離で、ブルーボトルコーヒーに至っては図らずも二軒隣のご近所です。近くに川があるところに住みたい、というプチ夢も叶いました。
@@ -50,19 +39,3 @@ Nov.
 これから先はもう少しだけ胸を張れるような生き方をしよう。やりたいことにも、どうやったら近づけるのか具体的に考えよう。ちょっぴり料理もしよう。枕カバーも頻繁に洗おう。
 
 もしかしたらまだ、引っ越し前のあのマンションの本当の掃除が、終わっていないのかもしれないなぁ。
-
-[ページの一番上に戻る](#top)
-
-[Facebook](https://web.archive.org/web/20230927221250/http://www.facebook.com/share.php?u=http://watarutaru.com/tenkyoki/)
-[twitter](https://web.archive.org/web/20230927221250/http://twitter.com/share?url=http://watarutaru.com/tenkyoki/&text=高円寺から深川へ（転居記：Facebookから転記）-watarutaru.com)
-[Hatena](https://web.archive.org/web/20230927221250/http://b.hatena.ne.jp/entry/http://watarutaru.com/tenkyoki/ "高円寺から深川へ（転居記：Facebookから転記）")
-[pocket](https://web.archive.org/web/20230927221250/http://getpocket.com/edit?url=http://watarutaru.com/tenkyoki/&title=高円寺から深川へ（転居記：Facebookから転記）)
-[Google+](https://web.archive.org/web/20230927221250/https://plus.google.com/share?url=http://watarutaru.com/tenkyoki/)
-
-関連してそうな記事
-
-- [非日常の魔法](https://web.archive.org/web/20230927221250/http://watarutaru.com/170323_essay/ "非日常の魔法")
-- [風とサボタージュ](https://web.archive.org/web/20230927221250/http://watarutaru.com/20150915/ "風とサボタージュ")
-- [「昔は良かったなぁ」「最近の若者は」議論に思うこと](https://web.archive.org/web/20230927221250/http://watarutaru.com/mukashiha-yokatta/ "「昔は良かったなぁ」「最近の若者は」議論に思うこと")
-
-© 2023 watarutaru.com. All rights reserved.

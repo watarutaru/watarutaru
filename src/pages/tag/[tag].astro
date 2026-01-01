@@ -1,0 +1,317 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const allPosts = await getCollection('blog');
+
+  const allTags = new Set<string>();
+  allPosts.forEach(post => {
+    if (post.data.tags && Array.isArray(post.data.tags)) {
+      post.data.tags.forEach(tag => allTags.add(tag));
+    }
+  });
+
+  return await Promise.all(Array.from(allTags).map(async (tag) => {
+    const filteredPosts = allPosts
+      .filter(post => post.data.tags?.includes(tag))
+      .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+
+    const postsWithExcerpts = await Promise.all(
+      filteredPosts.map(async (post) => {
+        const { Content } = await post.render();
+        return { post, Content };
+      })
+    );
+
+    return {
+      params: { tag },
+      props: { posts: postsWithExcerpts, tag },
+    };
+  }));
+}
+
+const { posts, tag } = Astro.props;
+
+function formatDate(date: Date) {
+  const month = date.getMonth() + 1;
+  const day = date.getDate();
+  const year = date.getFullYear();
+  const monthDay = `${month}.${day}`;
+  return { monthDay, year };
+}
+
+function getExcerpt(body: string): string {
+  const plainText = body
+    .replace(/^---[\s\S]*?---/, '')
+    .replace(/#{1,6}\s/g, '')
+    .replace(/!\[.*?\]\(.*?\)/g, '')
+    .replace(/\[([^\]]+)\]\([^\)]+\)/g, '$1')
+    .replace(/<[^>]+>/g, '')
+    .replace(/\n+/g, ' ')
+    .trim();
+  return plainText;
+}
+---
+
+<BaseLayout title={`#${tag} - watarutaru.com`}>
+  <div class="posts-wrapper">
+    <div class="tag-header">
+      <h1>Tag: #{tag}</h1>
+      <p class="post-count">{posts.length} 件の記事</p>
+    </div>
+
+    {posts.map(({ post }) => {
+      const { monthDay, year } = formatDate(post.data.date);
+      const excerpt = getExcerpt(post.body);
+      return (
+        <article class="article clearfix">
+          <div class="date">
+            <p class="date_number">{monthDay}</p>
+            <p class="date_month">{year}</p>
+          </div>
+          <div class="date_sp">
+            <p>{post.data.date.toLocaleDateString('ja-JP')}</p>
+          </div>
+          <div class="content">
+            {post.data.thumbnail && (
+              <div class="thumbnail">
+                <img src={post.data.thumbnail} alt={post.data.title} />
+              </div>
+            )}
+            <h2>{post.data.title}</h2>
+            <p class="description">{excerpt}</p>
+            <p class="more-link">→more</p>
+            <div class="meta">
+              {post.data.category && (
+                <span class="category">{post.data.category}</span>
+              )}
+              {post.data.tags && post.data.tags.length > 0 && (
+                <span class="tags">
+                  {post.data.tags.map(t => `#${t}`).join(' ')}
+                </span>
+              )}
+            </div>
+            <a class="hoverlink" href={`/blog/${post.slug}`} title={post.data.title}>
+              link-box
+            </a>
+          </div>
+        </article>
+      );
+    })}
+
+    <div class="back-link">
+      <a href="/blog" class="textlink">← すべての記事に戻る</a>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .posts-wrapper {
+    max-width: 610px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .tag-header {
+    margin: 2em 0 3em;
+    padding-bottom: 1em;
+    border-bottom: 3px solid #ffd800;
+  }
+
+  .tag-header h1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #3498db;
+    margin-bottom: 0.5em;
+  }
+
+  .post-count {
+    font-size: 0.9em;
+    color: #999;
+  }
+
+  .article {
+    margin: 2em auto 4em;
+    padding-bottom: 0.5em;
+    max-width: 610px;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    gap: 20px;
+  }
+
+  .date {
+    width: 60px;
+    height: 60px;
+    border: 3px solid #333;
+    border-radius: 50%;
+    text-align: center;
+    box-sizing: border-box;
+    transition: border-color 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+  }
+
+  .article:hover .date {
+    border-color: #ffd800;
+  }
+
+  .date_number {
+    font-size: 1.9em;
+    font-family: "Dosis", sans-serif;
+    font-weight: bold;
+    line-height: 1.2em;
+  }
+
+  .date_month {
+    display: block;
+    margin-top: -0.2em;
+    font-size: 1.25em;
+    font-family: "Dosis", sans-serif;
+    line-height: 1.2em;
+    font-weight: 200;
+  }
+
+  .date_sp {
+    display: none;
+  }
+
+  .content {
+    margin: 2px 0 0;
+    max-width: 530px;
+    border-top: 3px solid #444;
+    box-sizing: border-box;
+    transition: border-color 0.2s;
+    padding-bottom: 1em;
+    flex: 1;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    min-width: 0;
+  }
+
+  .article:hover .content {
+    border-top-color: #ffd800;
+  }
+
+  .thumbnail {
+    margin-top: 1em;
+    overflow: hidden;
+    border-radius: 4px;
+  }
+
+  .thumbnail img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .content h2 {
+    font-size: 1.67em;
+    font-weight: bold;
+    margin: 0.75em 0;
+    line-height: 1.5em;
+    letter-spacing: -0.015em;
+    color: #2c3e50;
+  }
+
+  .content .description {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-top: 1em;
+    font-size: 1em;
+    line-height: 2em;
+    color: #666;
+  }
+
+  .more-link {
+    display: block;
+    text-align: right;
+    margin-top: 0.5em;
+    font-size: 0.92em;
+    color: #48a9e1;
+    font-weight: 500;
+  }
+
+  .meta {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.85em;
+    color: #999;
+    margin-top: 0.75em;
+  }
+
+  .category {
+    color: #f39c12;
+    font-weight: 500;
+  }
+
+  .tags {
+    color: #3498db;
+  }
+
+  .content a.hoverlink {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-indent: -100%;
+    overflow: hidden;
+  }
+
+  .back-link {
+    margin: 3em 0 2em;
+    text-align: center;
+  }
+
+  @media (max-width: 640px) {
+    .date {
+      width: 50px;
+      height: 50px;
+    }
+
+    .date_number {
+      font-size: 1.6em;
+    }
+
+    .date_month {
+      font-size: 1em;
+      margin-top: -0.3em;
+    }
+
+    .date_sp {
+      display: none;
+    }
+
+    .article {
+      gap: 15px;
+    }
+
+    .content h2 {
+      font-size: 1.4em;
+      margin: 0.6em 0;
+      line-height: 1.4em;
+    }
+
+    .content .description {
+      margin-top: 1.6em;
+    }
+
+    .article:hover {
+      opacity: 0.5;
+    }
+
+    .meta {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  }
+</style>

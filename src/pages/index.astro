@@ -1,16 +1,235 @@
 ---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
 
+const allPosts = await getCollection('blog');
+const sortedPosts = allPosts.sort((a, b) =>
+  b.data.date.getTime() - a.data.date.getTime()
+);
+
+// Render posts to get plain text excerpt
+const postsWithExcerpts = await Promise.all(
+  sortedPosts.map(async (post) => {
+    const { Content } = await post.render();
+    return { post, Content };
+  })
+);
+
+function formatDate(date: Date) {
+  const month = date.getMonth() + 1;
+  const day = date.getDate();
+  const year = date.getFullYear();
+  const monthDay = `${month}.${day}`;
+  return { monthDay, year };
+}
+
+function getExcerpt(body: string): string {
+  // Remove markdown syntax
+  const plainText = body
+    .replace(/^---[\s\S]*?---/, '') // Remove frontmatter
+    .replace(/#{1,6}\s/g, '') // Remove headers
+    .replace(/!\[.*?\]\(.*?\)/g, '') // Remove images
+    .replace(/\[([^\]]+)\]\([^\)]+\)/g, '$1') // Remove links, keep text
+    .replace(/<[^>]+>/g, '') // Remove HTML tags
+    .replace(/\n+/g, ' ') // Replace newlines with spaces
+    .trim();
+  return plainText;
+}
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<BaseLayout title="watarutaru.com">
+  <div class="posts-wrapper">
+    {postsWithExcerpts.map(({ post }) => {
+      const { monthDay, year } = formatDate(post.data.date);
+      const excerpt = getExcerpt(post.body);
+      return (
+        <article class="article clearfix">
+          <div class="date">
+            <p class="date_number">{monthDay}</p>
+            <p class="date_month">{year}</p>
+          </div>
+          <div class="date_sp">
+            <p>{post.data.date.toLocaleDateString('ja-JP')}</p>
+          </div>
+          <div class="content">
+            {post.data.thumbnail && (
+              <div class="thumbnail">
+                <img src={post.data.thumbnail} alt={post.data.title} />
+              </div>
+            )}
+            <h2>{post.data.title}</h2>
+            <p class="description">{excerpt}</p>
+            <p class="more-link">→more</p>
+            <a class="hoverlink" href={`/blog/${post.slug}`} title={post.data.title}>
+              link-box
+            </a>
+          </div>
+        </article>
+      );
+    })}
+  </div>
+</BaseLayout>
+
+<style>
+  .posts-wrapper {
+    max-width: 610px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .article {
+    margin: 2em auto 4em;
+    padding-bottom: 0.5em;
+    max-width: 610px;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    gap: 20px;
+  }
+
+  .date {
+    width: 60px;
+    height: 60px;
+    border: 3px solid #333;
+    border-radius: 50%;
+    text-align: center;
+    box-sizing: border-box;
+    transition: border-color 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+  }
+
+  .article:hover .date {
+    border-color: #ffd800;
+  }
+
+  .date_number {
+    font-size: 1.9em;
+    font-family: "Dosis", sans-serif;
+    font-weight: bold;
+    line-height: 1.2em;
+  }
+
+  .date_month {
+    display: block;
+    margin-top: -0.2em;
+    font-size: 1.25em;
+    font-family: "Dosis", sans-serif;
+    line-height: 1.2em;
+    font-weight: 200;
+  }
+
+  .date_sp {
+    display: none;
+  }
+
+  .content {
+    margin: 2px 0 0;
+    max-width: 530px;
+    border-top: 3px solid #444;
+    box-sizing: border-box;
+    transition: border-color 0.2s;
+    flex: 1;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    min-width: 0;
+  }
+
+  .article:hover .content {
+    border-top-color: #ffd800;
+  }
+
+  .thumbnail {
+    margin-top: 1em;
+    overflow: hidden;
+    border-radius: 4px;
+  }
+
+  .thumbnail img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .content h2 {
+    font-size: 1.67em;
+    font-weight: bold;
+    margin: 0.75em 0;
+    line-height: 1.5em;
+    letter-spacing: -0.015em;
+    color: #2c3e50;
+  }
+
+  .content .description {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-top: 2em;
+    font-size: 1em;
+    line-height: 2em;
+    color: #666;
+  }
+
+  .more-link {
+    display: block;
+    text-align: right;
+    margin-top: 0.5em;
+    font-size: 0.92em;
+    color: #48a9e1;
+    font-weight: 500;
+  }
+
+  .content a.hoverlink {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-indent: -100%;
+    overflow: hidden;
+  }
+
+  @media (max-width: 640px) {
+    .date {
+      width: 50px;
+      height: 50px;
+    }
+
+    .date_number {
+      font-size: 1.6em;
+    }
+
+    .date_month {
+      font-size: 1em;
+      margin-top: -0.3em;
+    }
+
+    .date_sp {
+      display: none;
+    }
+
+    .article {
+      gap: 15px;
+    }
+
+    .content h2 {
+      font-size: 1.4em;
+      margin: 0.6em 0;
+      line-height: 1.4em;
+    }
+
+    .content .description {
+      margin-top: 1.6em;
+    }
+
+    .article:hover {
+      opacity: 0.5;
+    }
+  }
+</style>

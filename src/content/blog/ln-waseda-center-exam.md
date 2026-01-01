@@ -1,31 +1,20 @@
 ---
 title: "第一回早稲田センター試験（WEB＆イベント） in Lounge Note"
-slug: ln-waseda-center-exam
 date: 2016-07-15T12:12:02
 category: blog
-tags: []
+tags: ["ライトノベル", "受験", "早稲田"]
 description: "Lounge Noteでインターンしていた時の一大企画をこっそりと。第一回早稲田センター試験と銘打って、早稲田 […]"
 originalUrl: "http://watarutaru.com/ln-waseda-center-exam/"
 sourceUrl: "https://web.archive.org/web/20160715121202/http://watarutaru.com/ln-waseda-center-exam/"
 archivedAt: 20160715121202
 ---
-# [watarutaru.com watarutaru.com](/web/20160715121202/http://watarutaru.com/)
 
-14
-
-  
-
-Dec.
-
-2012.12.14
-
-## 第一回早稲田センター試験（WEB＆イベント） in Lounge Note
 
 Lounge Noteでインターンしていた時の一大企画をこっそりと。第一回早稲田センター試験と銘打って、早稲田大学と周辺地域に関する（ちょっと偏見も入った）センター試験を実施しました！
 
-![ln-waseda-center-exam01](https://web.archive.org/web/20160715121202im_/http://watarutaru.com/wp/wp-content/uploads/2014/09/ln-waseda-center-exam01.jpg)
+![ln-waseda-center-exam01](/images/2014/09/ln-waseda-center-exam01.jpg)
 
-[WEBはこちら](https://web.archive.org/web/20160715121202/http://www.loungenote.com/centerExam/2012/)
+<a href="https://web.archive.org/web/20160715121202/http://www.loungenote.com/centerExam/2012/" class="button">WEBはこちら</a>
 
 ### 早稲田センター試験とは
 
@@ -42,15 +31,15 @@ Lounge Noteでインターンしていた時の一大企画をこっそりと。
 
 #### WEBサイト「わせだを知ってる？ 第一回早稲田センター試験」
 
-![ln-waseda-center-exam02](https://web.archive.org/web/20160715121202im_/http://watarutaru.com/wp/wp-content/uploads/2014/09/ln-waseda-center-exam02.png)
+![ln-waseda-center-exam02](/images/2014/09/ln-waseda-center-exam02.png)
 
 ▲早稲田センター試験WEBサイト。同じくインターン生デザイナーのこいちゃんと共作でした。
 
-![ln-waseda-center-exam05](https://web.archive.org/web/20160715121202im_/http://watarutaru.com/wp/wp-content/uploads/2014/09/ln-waseda-center-exam05.png)
+![ln-waseda-center-exam05](/images/2014/09/ln-waseda-center-exam05.png)
 
 ▲試験を受けると、ちゃんとこんな感じで偏差値が出ます。
 
-![ln-waseda-center-exam04](https://web.archive.org/web/20160715121202im_/http://watarutaru.com/wp/wp-content/uploads/2014/09/ln-waseda-center-exam04.png)
+![ln-waseda-center-exam04](/images/2014/09/ln-waseda-center-exam04.png)
 
 ▲詳しい採点と解説もつけてある丁寧っぷり。
 
@@ -58,29 +47,13 @@ Lounge Noteでインターンしていた時の一大企画をこっそりと。
 
 #### イベント「早稲田センター試験 筆記試験」
 
-![ln-waseda-center-exam06](https://web.archive.org/web/20160715121202im_/http://watarutaru.com/wp/wp-content/uploads/2014/09/ln-waseda-center-exam06.jpg)
+![ln-waseda-center-exam06](/images/2014/09/ln-waseda-center-exam06.jpg)
 
 ▲問題冊子まで作ったのが完全にハイライト。
 
 WEBで完結させないで、イベントまでやったっていうのがいい経験になりました。  
-詳しくは[Lounge Noteのニュース](https://web.archive.org/web/20160715121202/http://www.loungenote.com/circle/1/news/61/)へ。
+詳しくは<a href="https://web.archive.org/web/20160715121202/http://www.loungenote.com/circle/1/news/61/" class="button">Lounge Noteのニュース</a>へ。
 
 ### と、いうわけで
 
 学生時代の昔のですが、思い出しメモ。楽しかったな。
-
-[ページの一番上に戻る](#top)
-
-[Facebook](https://web.archive.org/web/20160715121202/http://www.facebook.com/share.php?u=http://watarutaru.com/ln-waseda-center-exam/)
-[twitter](https://web.archive.org/web/20160715121202/http://twitter.com/share?url=http://watarutaru.com/ln-waseda-center-exam/&text=第一回早稲田センター試験（WEB＆イベント） in Lounge Note-watarutaru.com)
-[Hatena](https://web.archive.org/web/20160715121202/http://b.hatena.ne.jp/entry/http://watarutaru.com/ln-waseda-center-exam/ "第一回早稲田センター試験（WEB＆イベント） in Lounge Note")
-[pocket](https://web.archive.org/web/20160715121202/http://getpocket.com/edit?url=http://watarutaru.com/ln-waseda-center-exam/&title=第一回早稲田センター試験（WEB＆イベント） in Lounge Note)
-[Google+](https://web.archive.org/web/20160715121202/https://plus.google.com/share?url=http://watarutaru.com/ln-waseda-center-exam/)
-
-関連してそうな記事
-
-- [See you ‘again’ 2015.](https://web.archive.org/web/20160715121202/http://watarutaru.com/see-you-again-2015/ "See you ‘again’ 2015.")
-- [リベンジは、何度したっていい。「リベンジ☆合唱祭」今年も開催！](https://web.archive.org/web/20160715121202/http://watarutaru.com/g-revenge2015-01/ "リベンジは、何度したっていい。「リベンジ☆合唱祭」今年も開催！")
-- [代々木の隠れ家的美容室「groove」のWEBサイトを作りました](https://web.archive.org/web/20160715121202/http://watarutaru.com/groove-web/ "代々木の隠れ家的美容室「groove」のWEBサイトを作りました")
-
-© 2016 watarutaru.com. All rights reserved.

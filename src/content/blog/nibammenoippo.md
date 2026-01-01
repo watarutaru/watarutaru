@@ -1,36 +1,25 @@
 ---
 title: "合唱曲「にばんめの一歩」を演奏しました // はらわた@第70回東京都合唱祭"
-slug: nibammenoippo
 date: 2023-12-03T20:31:07
 category: blog
-tags: []
+tags: ["合唱", "作曲", "エッセイ"]
 description: "2015年7月20日（月・祝）飲み友達でもある大学の先輩原田さんとの企画「はらわたver.2.0」で、第70回 […]"
 originalUrl: "http://watarutaru.com/nibammenoippo/"
 sourceUrl: "https://web.archive.org/web/20231203203107/http://watarutaru.com/nibammenoippo/"
 archivedAt: 20231203203107
 ---
-# [watarutaru.com watarutaru.com](/web/20231203203107/http://watarutaru.com/)
 
-20
-
-  
-
-Jul.
-
-2015.07.20
-
-## 合唱曲「にばんめの一歩」を演奏しました // はらわた@第70回東京都合唱祭
 
 2015年7月20日（月・祝）飲み友達でもある大学の先輩原田さんとの企画「はらわたver.2.0」で、第70回東京都合唱祭に参加しました。新曲「にばんめの一歩」を書いて披露してきましたよ(\*\_\*)  
   
-[Download (rev002)](https://web.archive.org/web/20231203203107/http://watarutaru.com/wp/wp-content/uploads/2015/07/nibammenoippo_rev002.pdf)楽譜はこちらから！  
+<a href="/wp/wp-content/uploads/2015/07/nibammenoippo_rev002.pdf" class="button">Download (rev002)</a>楽譜はこちらから！  
 PDFで開きます。ぜひみなさんで演奏してみてください！
 
 ### はらわた ver.2.0
 
-昨年度[「大事なこと」を演奏するため](https://web.archive.org/web/20231203203107/http://watarutaru.com/daijinakoto/)に企画をやろうよ、と言ってもらって立ち上がったはらわた。はじめは一回ポッキリの集まりだし、と思っていたけれど、面白い集まりになったよね、というところから次もやれたらいいなぁとぼんやり思っていた。
+昨年度<a href="/daijinakoto/" class="button">「大事なこと」を演奏するため</a>に企画をやろうよ、と言ってもらって立ち上がったはらわた。はじめは一回ポッキリの集まりだし、と思っていたけれど、面白い集まりになったよね、というところから次もやれたらいいなぁとぼんやり思っていた。
 
-そんなところに、2015年初ごろだったと記憶しているけれど、驚いたことに歌い手としての合唱仲間でもある[作曲家の田中達也先生](https://web.archive.org/web/20231203203107/http://tanakasfactory.jp/)が僕の書いた「大事なこと」をアカペラ編曲してくれるという話が舞い込んできた。（これまた、発案は歌仲間のJ氏とのこと）それならばはらわたでやるしかない、とver.2.0に至った今回でした。
+そんなところに、2015年初ごろだったと記憶しているけれど、驚いたことに歌い手としての合唱仲間でもある<a href="https://web.archive.org/web/20231203203107/http://tanakasfactory.jp/" class="button">作曲家の田中達也先生</a>が僕の書いた「大事なこと」をアカペラ編曲してくれるという話が舞い込んできた。（これまた、発案は歌仲間のJ氏とのこと）それならばはらわたでやるしかない、とver.2.0に至った今回でした。
 
 はらわたは、第一回目と同じく僕の裏テーマとして「原田さんが指揮をふる場所を」ということはあるのだけれど、二回目にして「普段は合唱（音楽）に触れていない人でも遊びに来れる場」「離れていた音楽に向き合うきっかけの場」というような思いを託すことにしました。
 
@@ -56,7 +45,7 @@ Evernoteに残っている7月の日付のメモは、一部そのまま曲の�
 
 > （言葉選びのセンスや並べ方の妙をのぞけば）著名な作詞家になるということは、「よくもまあいけしゃあしゃあと、」と思うような恥ずかしいことばたちを並べたてて平然としている勇気があるということだよな、と思う。
 >
-> — tmrr@満身創痍 (@tmrr\_pc) [2015, 7月 11](https://web.archive.org/web/20231203203107/https://twitter.com/tmrr_pc/status/619850457981161472)
+> — tmrr@満身創痍 (@tmrr\_pc) <a href="https://web.archive.org/web/20231203203107/https://twitter.com/tmrr_pc/status/619850457981161472" class="button">2015, 7月 11</a>
 
 いちばんはじめは、思い切りと飛び出す勇気だけで何とかなってしまうことも多いけれど、さぁその次はどうだろうか。ビギナーズラックなんていう言葉もあるけれど、続けていくこと、続けていることがベテランの”弱さ”になってしまうことはたくさんある気がする。
 
@@ -76,20 +65,4 @@ Evernoteに残っている7月の日付のメモは、一部そのまま曲の�
 
 いろんな「にばんめの一歩」を乗せたはらわたになってくれたかもしれないな、と振り返っています。うれしいことに次回次々回も考えようね、という声がでているので、いつまでもそんな実験的な場所でありますように。
 
-[Download (rev002)](https://web.archive.org/web/20231203203107/http://watarutaru.com/wp/wp-content/uploads/2015/07/nibammenoippo_rev002.pdf)にばんめの一歩、楽譜はこちらから！
-
-[ページの一番上に戻る](#top)
-
-[Facebook](https://web.archive.org/web/20231203203107/http://www.facebook.com/share.php?u=http://watarutaru.com/nibammenoippo/)
-[twitter](https://web.archive.org/web/20231203203107/http://twitter.com/share?url=http://watarutaru.com/nibammenoippo/&text=合唱曲「にばんめの一歩」を演奏しました // はらわた@第70回東京都合唱祭-watarutaru.com)
-[Hatena](https://web.archive.org/web/20231203203107/http://b.hatena.ne.jp/entry/http://watarutaru.com/nibammenoippo/ "合唱曲「にばんめの一歩」を演奏しました // はらわた@第70回東京都合唱祭")
-[pocket](https://web.archive.org/web/20231203203107/http://getpocket.com/edit?url=http://watarutaru.com/nibammenoippo/&title=合唱曲「にばんめの一歩」を演奏しました // はらわた@第70回東京都合唱祭)
-[Google+](https://web.archive.org/web/20231203203107/https://plus.google.com/share?url=http://watarutaru.com/nibammenoippo/)
-
-関連してそうな記事
-
-- [GO GO Hawa!!](https://web.archive.org/web/20231203203107/http://watarutaru.com/go-go-hawaii/ "GO GO Hawa!!")
-- [演奏情報「にばんめの一歩」が演奏されます // 宇田川吾郎と仲間たちによるコンサート](https://web.archive.org/web/20231203203107/http://watarutaru.com/concert170401/ "演奏情報「にばんめの一歩」が演奏されます // 宇田川吾郎と仲間たちによるコンサート")
-- [2016/7/31(日) 合唱団ひぐらし第23回定期演奏会「いろはのむ」に出演します！](https://web.archive.org/web/20231203203107/http://watarutaru.com/irohanomu/ "2016/7/31(日) 合唱団ひぐらし第23回定期演奏会「いろはのむ」に出演します！")
-
-© 2023 watarutaru.com. All rights reserved.
+<a href="/wp/wp-content/uploads/2015/07/nibammenoippo_rev002.pdf" class="button">Download (rev002)</a>にばんめの一歩、楽譜はこちらから！

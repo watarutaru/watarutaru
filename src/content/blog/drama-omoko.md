@@ -1,27 +1,16 @@
 ---
 title: "TBS金曜ドラマ「表参道高校合唱部！」の曲を歌おう // アルカフェの合唱企画「レッツオモコー！」イベント紹介"
-slug: drama-omoko
 date: 2023-09-27T20:47:38
 category: blog
-tags: []
+tags: ["演劇", "制作"]
 description: "TBSで金曜22時から放送している「表参道高校合唱部！」というドラマがあります。毎回番組オリジナルアレンジのコ […]"
 originalUrl: "http://watarutaru.com/drama-omoko/"
 sourceUrl: "https://web.archive.org/web/20230927204738/http://watarutaru.com/drama-omoko/"
 archivedAt: 20230927204738
 ---
-# [watarutaru.com watarutaru.com](/web/20230927204738/http://watarutaru.com/)
 
-25
 
-  
-
-Sep.
-
-2015.09.25
-
-## TBS金曜ドラマ「表参道高校合唱部！」の曲を歌おう // アルカフェの合唱企画「レッツオモコー！」イベント紹介
-
-![150925_omoko_title](https://web.archive.org/web/20230927204738im_/http://watarutaru.com/wp/wp-content/uploads/2015/09/150925_omoko_title-1024x336.png)  
+![150925_omoko_title](/images/2015/09/150925_omoko_title-1024x336.png)  
 TBSで金曜22時から放送している「表参道高校合唱部！」というドラマがあります。毎回番組オリジナルアレンジのコーラス演奏があるのが特徴で、それを歌ってみよう！という企画「レッツオモコー！」に顔を出しているのでご紹介します。
 
 ### TBSの金曜ドラマ「表参道高校合唱部！」について
@@ -42,7 +31,7 @@ TBSで金曜22時から放送している「表参道高校合唱部！」とい
 
 > **1.TBSオンデマンド無料見逃しキャンペーンとは**  
 > 「TBSオンデマンド無料見逃しキャンペーン」は、TBSテレビで放送された番組をパソコン/スマートフォン（タブレット）から各番組の配信期間内無料で見ることができるキャンペーンです。  
-> [TBSオンデマンド無料見逃しキャンペーン｜TBSテレビ](https://web.archive.org/web/20230927204738/http://www.tbs.co.jp/muryou-douga/guide/)
+> <a href="https://web.archive.org/web/20230927204738/http://www.tbs.co.jp/muryou-douga/guide/" class="button">TBSオンデマンド無料見逃しキャンペーン｜TBSテレビ</a>
 
 ドラマであれば、次の放送日までの1週間は公式で見放題ですよ、という仕組みですね。そして、録画しちゃうとテレビでしか見られないから家で座ってテレビを付けて…ってやらなくちゃいけないところを、移動時間に電車でチャッと見れちゃうのはアリっちゃありかなぁと。
 
@@ -50,13 +39,13 @@ TBSで金曜22時から放送している「表参道高校合唱部！」とい
 
 ドラマで使われた曲が@ELISEからピースで販売されています！ 面白い。
 
-[@ELISE](https://web.archive.org/web/20230927204738/http://www.at-elise.com/Music/omosan-gassyobu/)
+<a href="https://web.archive.org/web/20230927204738/http://www.at-elise.com/Music/omosan-gassyobu/" class="button">@ELISE</a>
 
 ### アルカフェ合唱企画「レッツオモコー！」
 
 荻窪にアルカフェというお店がある。素敵なお店です。前から気になっていたのだけど、最近ようやく足を運べました。普段はオープンマイクやミニライブとかをメインに、たまにお店企画でいろいろイベントもやっているのだそう。
 
-[アルカフェWEBサイト](https://web.archive.org/web/20230927204738/http://alcafe.incoming.jp/)
+<a href="https://web.archive.org/web/20230927204738/http://alcafe.incoming.jp/" class="button">アルカフェWEBサイト</a>
 
 店主の”だん”さんは合唱やアカペラをやってらっしゃる方で、お店企画の中にもアカペラものとかが多し。その中で、今回は前述TBSドラマの「表参道高校合唱部！」にあやかった「レッツオモコー！」のイベントを主催されている、というわけなのです。
 
@@ -77,42 +66,29 @@ TBSで金曜22時から放送している「表参道高校合唱部！」とい
 
 「レッツオモコー！」で発声練習的に遊べれば良いな〜と、いわゆるカデンツの和音練習にオープニングテーマを入れこんでアレンジしました。どんな音になってるでしょうか？ 簡単なので試しに歌ってみてください♪
 
-[楽譜はこちら](https://web.archive.org/web/20230927204738/http://watarutaru.com/wp/wp-content/uploads/2015/09/omoko_cadenza.pdf)
+<a href="/wp/wp-content/uploads/2015/09/omoko_cadenza.pdf" class="button">楽譜はこちら</a>
 
 ### 今後の「レッツオモコー！」お知らせ
 
 11/3（火祝）にこれまたアルカフェ内のイベントである「アルカフェスタ☆アルカペラ★文化の日スペシャル」へ「レッツオモコー！」チームで出場することに。まだまだこれからなので、一緒に参加できるひとも募集中ですよ。
 
-##### 今後の予定
+<div class="comment-box">
+<h5>今後の予定</h5>
 
 **第3回**  
 09月30日（水）19:30-22:00 「TRAIN-TRAIN」/クラス合唱「マイバラード」  
-[→イベントページはこちら](https://web.archive.org/web/20230927204738/https://www.facebook.com/events/792526930846110/)
+</div>
+
+<a href="https://web.archive.org/web/20230927204738/https://www.facebook.com/events/792526930846110/" class="button">→イベントページはこちら</a>
 
 **第4回**  
 10月08日（木）19:30-22:00 「ハナミズキ」/クラス合唱「心の瞳」  
-[→イベントページはこちら](https://web.archive.org/web/20230927204738/https://www.facebook.com/events/1457629824563539/)
+<a href="https://web.archive.org/web/20230927204738/https://www.facebook.com/events/1457629824563539/" class="button">→イベントページはこちら</a>
 
 **第5回**  
 10月21日（水）19:30-22:00　近日発表！  
-[→イベントページはこちら](https://web.archive.org/web/20230927204738/https://www.facebook.com/events/922976504440962/)
+<a href="https://web.archive.org/web/20230927204738/https://www.facebook.com/events/922976504440962/" class="button">→イベントページはこちら</a>
 
 ### と、いうわけで
 
 レッツオモコー！ 一緒に歌おう！
-
-[ページの一番上に戻る](#top)
-
-[Facebook](https://web.archive.org/web/20230927204738/http://www.facebook.com/share.php?u=http://watarutaru.com/drama-omoko/)
-[twitter](https://web.archive.org/web/20230927204738/http://twitter.com/share?url=http://watarutaru.com/drama-omoko/&text=TBS金曜ドラマ「表参道高校合唱部！」の曲を歌おう // アルカフェの合唱企画「レッツオモコー！」イベント紹介-watarutaru.com)
-[Hatena](https://web.archive.org/web/20230927204738/http://b.hatena.ne.jp/entry/http://watarutaru.com/drama-omoko/ "TBS金曜ドラマ「表参道高校合唱部！」の曲を歌おう // アルカフェの合唱企画「レッツオモコー！」イベント紹介")
-[pocket](https://web.archive.org/web/20230927204738/http://getpocket.com/edit?url=http://watarutaru.com/drama-omoko/&title=TBS金曜ドラマ「表参道高校合唱部！」の曲を歌おう // アルカフェの合唱企画「レッツオモコー！」イベント紹介)
-[Google+](https://web.archive.org/web/20230927204738/https://plus.google.com/share?url=http://watarutaru.com/drama-omoko/)
-
-関連してそうな記事
-
-- [GO GO Hawa!!](https://web.archive.org/web/20230927204738/http://watarutaru.com/go-go-hawaii/ "GO GO Hawa!!")
-- [演奏情報「にばんめの一歩」が演奏されます // 宇田川吾郎と仲間たちによるコンサート](https://web.archive.org/web/20230927204738/http://watarutaru.com/concert170401/ "演奏情報「にばんめの一歩」が演奏されます // 宇田川吾郎と仲間たちによるコンサート")
-- [2016/7/31(日) 合唱団ひぐらし第23回定期演奏会「いろはのむ」に出演します！](https://web.archive.org/web/20230927204738/http://watarutaru.com/irohanomu/ "2016/7/31(日) 合唱団ひぐらし第23回定期演奏会「いろはのむ」に出演します！")
-
-© 2023 watarutaru.com. All rights reserved.

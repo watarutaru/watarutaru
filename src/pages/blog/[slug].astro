@@ -1,21 +1,541 @@
 ---
-import { getCollection } from "astro:content";
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
 
 export async function getStaticPaths() {
-  const posts = await getCollection("blog");
+  const posts = await getCollection('blog');
   return posts.map((post) => ({
     params: { slug: post.slug },
-    props: post,
+    props: { post },
   }));
 }
 
-const post = Astro.props;
+const { post } = Astro.props;
 const { Content } = await post.render();
+
+const allPosts = await getCollection('blog');
+
+// 関連記事のスコアリング関数
+function calculateRelevanceScore(currentPost: typeof post, otherPost: typeof post.data) {
+  let score = 0;
+
+  // タグの一致数（1タグあたり10点）
+  if (currentPost.data.tags && otherPost.tags) {
+    const matchingTags = currentPost.data.tags.filter(tag =>
+      otherPost.tags?.includes(tag)
+    ).length;
+    score += matchingTags * 10;
+  }
+
+  // カテゴリの一致（20点）
+  if (currentPost.data.category && currentPost.data.category === otherPost.category) {
+    score += 20;
+  }
+
+  // タイトルのキーワード一致（簡易的な実装）
+  const currentWords = currentPost.data.title.split(/[\s、。！？「」]/);
+  const otherWords = otherPost.title.split(/[\s、。！？「」]/);
+  const commonWords = currentWords.filter(word =>
+    word.length > 1 && otherWords.includes(word)
+  ).length;
+  score += commonWords * 5;
+
+  return score;
+}
+
+const relatedPosts = allPosts
+  .filter(p => p.slug !== post.slug)
+  .map(p => ({
+    post: p,
+    score: calculateRelevanceScore(post, p.data)
+  }))
+  .filter(item => item.score > 0) // スコアが0より大きいもののみ
+  .sort((a, b) => b.score - a.score) // スコアの高い順
+  .slice(0, 3)
+  .map(item => item.post);
+
+function formatDate(date: Date) {
+  const month = date.getMonth() + 1;  // 1-12 (0埋めなし)
+  const day = date.getDate();  // 1-31 (0埋めなし)
+  const year = date.getFullYear();  // 2016など
+  const monthDay = `${month}.${day}`;  // "5.26"
+  const formatted = `${year}.${String(month).padStart(2, '0')}.${String(day).padStart(2, '0')}`;
+  return { monthDay, year, formatted };
+}
+
+const dateInfo = formatDate(post.data.date);
 ---
 
-<article>
-  <h1>{post.data.title}</h1>
-  <p>{post.data.date.toLocaleDateString()}</p>
+<BaseLayout title={`${post.data.title} - watarutaru.com`} description={post.data.description}>
+  <div class="article-wrapper">
+    <article class="article">
+      <div class="article_head clearfix">
+        <div class="date">
+          <p class="date_number">{dateInfo.monthDay}</p>
+          <p class="date_month">{dateInfo.year}</p>
+        </div>
+        <div class="date_sp">
+          <p>{dateInfo.formatted}</p>
+        </div>
+        <h2>{post.data.title}</h2>
+      </div>
 
-  <Content />
-</article>
+      {post.data.tags && post.data.tags.length > 0 && (
+        <div class="tags">
+          {post.data.tags.map((tag) => (
+            <span class="tag">#{tag}</span>
+          ))}
+        </div>
+      )}
+
+      <div class="content">
+        <Content />
+      </div>
+
+      {relatedPosts.length > 0 && (
+        <aside class="related_article">
+          <p>関連してそうな記事</p>
+          <ul>
+            {relatedPosts.map((related) => (
+              <li>
+                <a class="textlink" href={`/blog/${related.slug}`}>{related.data.title}</a>
+              </li>
+            ))}
+          </ul>
+        </aside>
+      )}
+    </article>
+  </div>
+
+  <button id="scrollToTop" class="scroll-to-top" aria-label="ページの一番上に戻る">
+    <span class="arrow-up"></span>
+  </button>
+</BaseLayout>
+
+<script>
+  const scrollToTopBtn = document.getElementById('scrollToTop');
+  const relatedArticle = document.querySelector('.related_article');
+
+  function updateButtonPosition() {
+    if (!scrollToTopBtn) return;
+
+    const scrollPercentage = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
+
+    // Show/hide button
+    if (scrollPercentage >= 30) {
+      scrollToTopBtn.classList.add('visible');
+    } else {
+      scrollToTopBtn.classList.remove('visible');
+      return;
+    }
+
+    // Calculate position
+    const viewportWidth = window.innerWidth;
+    const contentMaxWidth = 610;
+    const contentWidth = Math.min(viewportWidth * 0.9, contentMaxWidth);
+    const contentLeft = (viewportWidth - contentWidth) / 2;
+
+    // Position: button right edge aligned with content right edge
+    scrollToTopBtn.style.right = `${viewportWidth - (contentLeft + contentWidth)}px`;
+
+    // Check if we need to stop before related article
+    if (relatedArticle) {
+      const relatedRect = relatedArticle.getBoundingClientRect();
+      const relatedTop = relatedRect.top + window.scrollY;
+      const stopPosition = relatedTop - 24 - 40; // Stop 24px above related article (minus button height)
+      const normalBottomPosition = window.scrollY + window.innerHeight - 60 - 40; // 60px from bottom (minus button height)
+
+      if (normalBottomPosition + 40 > relatedTop - 24) {
+        // Fix button above related article
+        scrollToTopBtn.style.position = 'absolute';
+        scrollToTopBtn.style.top = `${stopPosition}px`;
+        scrollToTopBtn.style.bottom = 'auto';
+      } else {
+        // Normal fixed position from bottom
+        scrollToTopBtn.style.position = 'fixed';
+        scrollToTopBtn.style.top = 'auto';
+        scrollToTopBtn.style.bottom = '60px';
+      }
+    } else {
+      scrollToTopBtn.style.position = 'fixed';
+      scrollToTopBtn.style.top = 'auto';
+      scrollToTopBtn.style.bottom = '60px';
+    }
+  }
+
+  window.addEventListener('scroll', updateButtonPosition);
+  window.addEventListener('resize', updateButtonPosition);
+
+  scrollToTopBtn?.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+  // Initial check
+  updateButtonPosition();
+</script>
+
+<style>
+  .article-wrapper {
+    max-width: 610px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .article {
+    margin: 2em auto 4.5em;
+    padding-bottom: 0.5em;
+  }
+
+  .article_head {
+    padding-top: 1px;
+  }
+
+  .date {
+    width: 72px;
+    height: 72px;
+    border: 3px solid #ffd800;
+    border-radius: 50%;
+    text-align: center;
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .date_number {
+    font-size: 2.1em;
+    font-family: "Dosis", sans-serif;
+    font-weight: bold;
+    line-height: 1em;
+  }
+
+  .date_month {
+    font-size: 1.35em;
+    font-family: "Dosis", sans-serif;
+    line-height: 1.1em;
+    font-weight: 200;
+  }
+
+  .date_sp {
+    display: none;
+  }
+
+  .article_head h2 {
+    font-size: 2em;
+    font-weight: 600;
+    margin: 2px 0 0 96px;
+    padding-top: 0.9em;
+    line-height: 1.5em;
+    letter-spacing: -0.015em;
+    border-top: 3px solid #ffd800;
+    max-width: 514px;
+  }
+
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    margin: 1.5em 0 0 96px;
+  }
+
+  .tag {
+    display: inline-block;
+    font-size: 0.83em;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 0.3em 0.6em;
+    border-radius: 4px;
+    font-weight: 500;
+  }
+
+  .content {
+    width: 100%;
+    max-width: 610px;
+    box-sizing: border-box;
+    margin-top: 2.5em;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+
+  .content :global(p) {
+    display: block;
+    margin-top: 2em;
+    font-size: 1.17em;
+    line-height: 1.9em;
+    font-weight: 200;
+    color: #333;
+    letter-spacing: -0.016em;
+    text-justify: inter-ideograph;
+    text-align: justify;
+  }
+
+  .content :global(ul) {
+    margin: 2em 0 0;
+    padding: 0 1em;
+    font-size: 1em;
+  }
+
+  .content :global(li) {
+    list-style: disc inside;
+    font-size: 1.17em;
+    line-height: 2.5em;
+    color: #444;
+  }
+
+  .content :global(li::marker) {
+    color: #ffd800;
+  }
+
+  .content :global(h3) {
+    font-size: 1.33em;
+    font-weight: bold;
+  }
+
+  .content :global(h3:before) {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 1.5em;
+    margin-top: 5.33em;
+    border-top: 2px solid #ffd800;
+  }
+
+  .content :global(h4) {
+    display: flex;
+    align-items: center;
+    margin: 4.5em 0 0;
+    font-size: 1.17em;
+    font-weight: bold;
+    line-height: 1.33em;
+  }
+
+  .content :global(h4:before) {
+    content: "";
+    display: block;
+    margin-right: 0.83em;
+    width: 1.17em;
+    height: 1.17em;
+    border: 2px solid #ffd800;
+    border-radius: 50%;
+    flex-shrink: 0;
+    box-sizing: border-box;
+  }
+
+  .content :global(.comment-box) {
+    border: 2px solid #ffd800;
+    margin: 1em 0;
+    padding: 1.8em;
+    box-sizing: border-box;
+  }
+
+  .content :global(.comment-box h5) {
+    margin: 0 0 1em 0;
+    font-size: 1.17em;
+    font-weight: bold;
+  }
+
+  .content :global(.comment-box p) {
+    margin: 0;
+    font-size: 1em;
+  }
+
+  .content :global(.comment-box p:not(:last-child)) {
+    margin-bottom: 1em;
+  }
+
+  .content :global(img) {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 2.4em 0 -1em;
+    vertical-align: bottom;
+  }
+
+  .content :global(a) {
+    color: #48a9e1;
+    transition: color 0.3s;
+  }
+
+  .content :global(a:hover) {
+    color: #2980b9;
+  }
+
+  .content :global(a.button) {
+    display: block;
+    position: relative;
+    background-color: rgba(255, 216, 0, 0.3);
+    border: 3px solid #ffd800;
+    color: #333;
+    padding: 0.5em;
+    margin: 1em 0;
+    max-width: 240px;
+    width: 80%;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    z-index: 1;
+  }
+
+  .content :global(a.button::before) {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 216, 0, 1);
+    transform: scale(0);
+    transform-origin: top left;
+    transition: transform 0.4s ease;
+    z-index: -1;
+    border-radius: 2px;
+  }
+
+  .content :global(a.button:hover::before) {
+    transform: scale(1.5);
+  }
+
+  .scroll-to-top {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffd800;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 16px rgba(255, 216, 0, 0.15);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s, transform 0.2s, top 0.1s;
+    z-index: 1000;
+  }
+
+  .scroll-to-top.visible {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .scroll-to-top:hover {
+    transform: translateY(-4px);
+    box-shadow: 0px 0px 24px rgba(255, 216, 0, 0.3);
+  }
+
+  .scroll-to-top .arrow-up {
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+
+  .scroll-to-top .arrow-up::before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    width: 10px;
+    height: 10px;
+    border-left: 3px solid #fff;
+    border-top: 3px solid #fff;
+  }
+
+  .scroll-to-top .arrow-up::after {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 3px;
+    height: 16px;
+    background-color: #fff;
+  }
+
+  .related_article {
+    margin-top: 6.5em;
+    padding: 24px;
+    background: #f0f0f0;
+    border-radius: 4px;
+    color: #48d9e1;
+  }
+
+  .related_article p {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 1.5em;
+    font-size: 1.17em;
+  }
+
+  .related_article li {
+    list-style: none;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 2.34em;
+  }
+
+  @media (max-width: 640px) {
+    .scroll-to-top {
+      width: 40px;
+      height: 40px;
+    }
+
+    .scroll-to-top .arrow-up {
+      width: 18px;
+      height: 18px;
+    }
+
+    .scroll-to-top .arrow-up::before {
+      top: 1px;
+      width: 9px;
+      height: 9px;
+      border-left: 2.5px solid #fff;
+      border-top: 2.5px solid #fff;
+    }
+
+    .scroll-to-top .arrow-up::after {
+      top: 3px;
+      width: 2.5px;
+      height: 15px;
+    }
+
+    .date {
+      width: 60px;
+      height: 60px;
+    }
+
+    .date_number {
+      font-size: 1.8em;
+    }
+
+    .date_month {
+      font-size: 1.2em;
+    }
+
+    .date_sp {
+      display: none;
+    }
+
+    .article_head h2 {
+      font-size: 1.83em;
+      margin: 2px 0 0 80px;
+      padding-top: 0.7em;
+      border-top: 3px solid #ffd800;
+    }
+
+    .tags {
+      margin-left: 80px;
+    }
+
+    .content :global(p) {
+      line-height: 1.8em;
+      text-align: left;
+    }
+  }
+</style>

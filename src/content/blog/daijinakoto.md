@@ -1,29 +1,18 @@
 ---
 title: "合唱曲「大事なこと」を再演しました // 演奏と楽譜データのご紹介"
-slug: daijinakoto
 date: 2023-12-03T21:37:25
 category: blog
-tags: []
+tags: ["合唱", "作曲", "はらわた"]
 description: "2014年7月21日（月・祝）大学の合唱団の先輩でもある合唱人の原田さんとの企画で、第69回東京都合唱祭にてオ […]"
 originalUrl: "http://watarutaru.com/daijinakoto/"
 sourceUrl: "https://web.archive.org/web/20231203213725/http://watarutaru.com/daijinakoto/"
 archivedAt: 20231203213725
 ---
-# [watarutaru.com watarutaru.com](/web/20231203213725/http://watarutaru.com/)
 
-21
-
-  
-
-Jul.
-
-2014.07.21
-
-## 合唱曲「大事なこと」を再演しました // 演奏と楽譜データのご紹介
 
 2014年7月21日（月・祝）大学の合唱団の先輩でもある合唱人の原田さんとの企画で、第69回東京都合唱祭にてオリジナルの合唱曲「大事なこと」を演奏しました。  
   
-[Download (rev003)](https://web.archive.org/web/20231203213725/http://watarutaru.com/wp/wp-content/uploads/2014/09/大事なこと_Score_rev003.pdf)楽譜はこちらから！  
+<a href="/wp/wp-content/uploads/2014/09/大事なこと_Score_rev003.pdf" class="button">Download (rev003)</a>楽譜はこちらから！  
 PDFで開きます。ぜひみなさんで演奏してみてください！
 
 ### 合唱曲「大事なこと」について
@@ -50,7 +39,7 @@ PDFで開きます。ぜひみなさんで演奏してみてください！
 
 実は今回きちんと演奏するに当たって初めて書いた譜面からリライトをしてみて、改めて自分の書いた音と一回向き合ったのだけど。これがひじょーに勉強になりました。
 
-本物のプロって、推敲が上手な人のことを言うんだろうな。思いつきのアイディアや、ラフのデザインや、構想の文章から、どれだけ素晴らしい物に粘ってブラッシュアップしていくか。僕はそれがとても下手なんだなぁって思い知らされました。一度形になった（したと思ってしまった）物を動かすのはとっても勇気がいる。なんとなく[こういうパズル](https://web.archive.org/web/20231203213725/http://goo.gl/dyQQ1O)を思い出しますね。
+本物のプロって、推敲が上手な人のことを言うんだろうな。思いつきのアイディアや、ラフのデザインや、構想の文章から、どれだけ素晴らしい物に粘ってブラッシュアップしていくか。僕はそれがとても下手なんだなぁって思い知らされました。一度形になった（したと思ってしまった）物を動かすのはとっても勇気がいる。なんとなく<a href="https://web.archive.org/web/20231203213725/http://goo.gl/dyQQ1O" class="button">こういうパズル</a>を思い出しますね。
 
 たしかに0から1にすることよりも、1から100にすることのほうが数字としては大きくて、それなのに0から1にするインパクトに注目しがちだなぁって。僕は、少なくとも。
 
@@ -72,20 +61,4 @@ PDFで開きます。ぜひみなさんで演奏してみてください！
 
 よかったら「大事なこと」の楽譜をダウンロードしてみてくださいね。
 
-[Download (rev003)](https://web.archive.org/web/20231203213725/http://watarutaru.com/wp/wp-content/uploads/2014/09/大事なこと_Score_rev003.pdf)
-
-[ページの一番上に戻る](#top)
-
-[Facebook](https://web.archive.org/web/20231203213725/http://www.facebook.com/share.php?u=http://watarutaru.com/daijinakoto/)
-[twitter](https://web.archive.org/web/20231203213725/http://twitter.com/share?url=http://watarutaru.com/daijinakoto/&text=合唱曲「大事なこと」を再演しました // 演奏と楽譜データのご紹介-watarutaru.com)
-[Hatena](https://web.archive.org/web/20231203213725/http://b.hatena.ne.jp/entry/http://watarutaru.com/daijinakoto/ "合唱曲「大事なこと」を再演しました // 演奏と楽譜データのご紹介")
-[pocket](https://web.archive.org/web/20231203213725/http://getpocket.com/edit?url=http://watarutaru.com/daijinakoto/&title=合唱曲「大事なこと」を再演しました // 演奏と楽譜データのご紹介)
-[Google+](https://web.archive.org/web/20231203213725/https://plus.google.com/share?url=http://watarutaru.com/daijinakoto/)
-
-関連してそうな記事
-
-- [GO GO Hawa!!](https://web.archive.org/web/20231203213725/http://watarutaru.com/go-go-hawaii/ "GO GO Hawa!!")
-- [演奏情報「にばんめの一歩」が演奏されます // 宇田川吾郎と仲間たちによるコンサート](https://web.archive.org/web/20231203213725/http://watarutaru.com/concert170401/ "演奏情報「にばんめの一歩」が演奏されます // 宇田川吾郎と仲間たちによるコンサート")
-- [2016/7/31(日) 合唱団ひぐらし第23回定期演奏会「いろはのむ」に出演します！](https://web.archive.org/web/20231203213725/http://watarutaru.com/irohanomu/ "2016/7/31(日) 合唱団ひぐらし第23回定期演奏会「いろはのむ」に出演します！")
-
-© 2023 watarutaru.com. All rights reserved.
+<a href="/wp/wp-content/uploads/2014/09/大事なこと_Score_rev003.pdf" class="button">Download (rev003)</a>

@@ -1,0 +1,143 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const allPosts = await getCollection('blog');
+
+const tagCount = allPosts.reduce((acc, post) => {
+  if (post.data.tags && Array.isArray(post.data.tags)) {
+    post.data.tags.forEach(tag => {
+      acc[tag] = (acc[tag] || 0) + 1;
+    });
+  }
+  return acc;
+}, {} as Record<string, number>);
+
+const tags = Object.entries(tagCount)
+  .sort((a, b) => b[1] - a[1])
+  .map(([name, count]) => ({ name, count }));
+---
+
+<BaseLayout title="タグ一覧 - watarutaru.com">
+  <div class="tags-wrapper">
+    <div class="header">
+      <h1>タグ一覧</h1>
+      <p class="description">全 {tags.length} タグ</p>
+    </div>
+
+    <div class="tags-cloud">
+      {tags.map((tag) => {
+        const sizeClass = tag.count >= 5 ? 'large' : tag.count >= 3 ? 'medium' : 'small';
+        return (
+          <a href={`/tag/${tag.name}`} class={`tag-item ${sizeClass}`}>
+            #{tag.name}
+            <span class="count">({tag.count})</span>
+          </a>
+        );
+      })}
+    </div>
+
+    <div class="back-link">
+      <a href="/blog" class="textlink">← すべての記事に戻る</a>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .tags-wrapper {
+    max-width: 610px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 2em 0;
+  }
+
+  .header {
+    margin-bottom: 3em;
+    padding-bottom: 1em;
+    border-bottom: 3px solid #ffd800;
+  }
+
+  .header h1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #3498db;
+    margin-bottom: 0.5em;
+  }
+
+  .description {
+    font-size: 0.9em;
+    color: #999;
+  }
+
+  .tags-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin-bottom: 3em;
+    padding: 2em;
+    background: #fff;
+    border-radius: 8px;
+  }
+
+  .tag-item {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background: #e3f2fd;
+    color: #3498db;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: all 0.3s;
+    border: 2px solid transparent;
+  }
+
+  .tag-item:hover {
+    background: #3498db;
+    color: #fff;
+    border-color: #3498db;
+    transform: translateY(-2px);
+  }
+
+  .tag-item.large {
+    font-size: 1.4em;
+    font-weight: bold;
+  }
+
+  .tag-item.medium {
+    font-size: 1.1em;
+    font-weight: 500;
+  }
+
+  .tag-item.small {
+    font-size: 0.95em;
+  }
+
+  .count {
+    font-size: 0.85em;
+    opacity: 0.7;
+    margin-left: 0.25em;
+  }
+
+  .back-link {
+    margin: 3em 0 2em;
+    text-align: center;
+  }
+
+  @media (max-width: 640px) {
+    .tags-cloud {
+      padding: 1.5em;
+      gap: 0.75em;
+    }
+
+    .tag-item {
+      padding: 0.4em 0.8em;
+    }
+
+    .tag-item.large {
+      font-size: 1.2em;
+    }
+
+    .tag-item.medium {
+      font-size: 1em;
+    }
+  }
+</style>
