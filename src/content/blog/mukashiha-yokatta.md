@@ -1,12 +1,14 @@
 ---
-title: "「昔は良かったなぁ」「最近の若者は」議論に思うこと"
-date: 2023-12-03T21:11:39
-category: blog
-tags: ["合唱", "エッセイ"]
-description: "「最近の若者は」って言われることを過剰に嫌う人も結構いるけれど、僕はそうでもないなぁと思う。でももしかしてそれ […]"
-originalUrl: "http://watarutaru.com/mukashiha-yokatta/"
-sourceUrl: "https://web.archive.org/web/20231203211139/http://watarutaru.com/mukashiha-yokatta/"
+date: 2014-10-03
+sourceUrl: https://web.archive.org/web/20231203211139/http://watarutaru.com/mukashiha-yokatta/
 archivedAt: 20231203211139
+title: 「昔は良かったなぁ」「最近の若者は」議論に思うこと
+tags:
+  - 合唱
+  - エッセイ
+description: 「最近の若者は」って言われることを過剰に嫌う人も結構いるけれど、僕はそうでもないなぁと思う。でももしかしてそれ […]
+category: blog
+originalUrl: http://watarutaru.com/mukashiha-yokatta/
 ---
 
 
