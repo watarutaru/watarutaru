@@ -103,8 +103,13 @@ function getExcerpt(body: string): string {
     flex-shrink: 0;
   }
 
-  .article:hover .date {
+  .article:hover .date,
+  .article:active .date {
     border-color: #ffd800;
+  }
+
+  .article:active .date {
+    transition: none;
   }
 
   .date_number {
@@ -139,8 +144,13 @@ function getExcerpt(body: string): string {
     min-width: 0;
   }
 
-  .article:hover .content {
+  .article:hover .content,
+  .article:active .content {
     border-top-color: #ffd800;
+  }
+
+  .article:active .content {
+    transition: none;
   }
 
   .thumbnail {
