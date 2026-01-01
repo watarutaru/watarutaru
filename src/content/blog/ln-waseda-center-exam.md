@@ -1,12 +1,15 @@
 ---
-title: "第一回早稲田センター試験（WEB＆イベント） in Lounge Note"
-date: 2016-07-15
-category: blog
-tags: ["ライトノベル", "受験", "早稲田"]
-description: "Lounge Noteでインターンしていた時の一大企画をこっそりと。第一回早稲田センター試験と銘打って、早稲田 […]"
-originalUrl: "http://watarutaru.com/ln-waseda-center-exam/"
-sourceUrl: "https://web.archive.org/web/20160715121202/http://watarutaru.com/ln-waseda-center-exam/"
+date: 2014-07-15
+sourceUrl: https://web.archive.org/web/20160715121202/http://watarutaru.com/ln-waseda-center-exam/
 archivedAt: 20160715121202
+title: 第一回早稲田センター試験（WEB＆イベント） in Lounge Note
+tags:
+  - ライトノベル
+  - 受験
+  - 早稲田
+description: Lounge Noteでインターンしていた時の一大企画をこっそりと。第一回早稲田センター試験と銘打って、早稲田 […]
+category: blog
+originalUrl: http://watarutaru.com/ln-waseda-center-exam/
 ---
 
 
