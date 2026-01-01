@@ -400,6 +400,32 @@ const dateInfo = formatDate(post.data.date);
     transform: scale(1.5);
   }
 
+  /* YouTube・Instagram埋め込み対応 */
+  .content :global(iframe) {
+    display: block;
+    max-width: 100%;
+    max-height: 600px;
+    margin: 2em auto;
+    border: none;
+  }
+
+  /* 横長動画の場合は横幅いっぱいに */
+  .content :global(iframe[src*="youtube"]),
+  .content :global(iframe[src*="vimeo"]) {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    max-height: none;
+  }
+
+  /* 縦型・正方形動画の場合 */
+  @media (min-aspect-ratio: 9/16) {
+    .content :global(iframe[src*="instagram"]) {
+      max-width: 400px;
+      max-height: 600px;
+      width: auto;
+    }
+  }
+
   .scroll-to-top {
     position: fixed;
     width: 40px;
