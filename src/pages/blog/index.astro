@@ -191,6 +191,12 @@ function getExcerpt(body: string): string {
     height: 100%;
     text-indent: -100%;
     overflow: hidden;
+    -webkit-tap-highlight-color: rgba(255, 216, 0, 0.3);
+    tap-highlight-color: rgba(255, 216, 0, 0.3);
+  }
+
+  .content a.hoverlink:visited {
+    opacity: 1;
   }
 
   @media (max-width: 640px) {
