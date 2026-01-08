@@ -353,7 +353,16 @@ const dateInfo = formatDate(post.data.date);
     vertical-align: bottom;
   }
 
-  .content :global(a:not(.textlink)) {
+  .content :global(a) {
+    color: #48a9e1;
+    transition: color 0.3s;
+  }
+
+  .content :global(a:hover) {
+    color: #2980b9;
+  }
+
+  .content :global(a.button) {
     display: block;
     position: relative;
     background-color: rgba(255, 216, 0, 0.3);
@@ -372,7 +381,7 @@ const dateInfo = formatDate(post.data.date);
     z-index: 1;
   }
 
-  .content :global(a:not(.textlink)::before) {
+  .content :global(a.button::before) {
     content: "";
     position: absolute;
     top: 0;
@@ -387,17 +396,8 @@ const dateInfo = formatDate(post.data.date);
     border-radius: 2px;
   }
 
-  .content :global(a:not(.textlink):hover::before) {
+  .content :global(a.button:hover::before) {
     transform: scale(1.5);
-  }
-
-  .content :global(a.textlink) {
-    color: #48a9e1;
-    transition: color 0.3s;
-  }
-
-  .content :global(a.textlink:hover) {
-    color: #2980b9;
   }
 
   /* YouTube・Instagram埋め込み対応 */

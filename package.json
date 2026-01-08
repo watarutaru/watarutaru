@@ -9,7 +9,8 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^4.16.19"
+    "astro": "^4.16.19",
+    "remark-attr": "^0.11.1"
   },
   "devDependencies": {
     "prettier": "^3.7.4",
