@@ -345,6 +345,24 @@ const dateInfo = formatDate(post.data.date);
     margin-bottom: 1em;
   }
 
+  .content :global(pre) {
+    border: 2px solid #ffd800;
+    margin: 2em 0;
+    padding: 1.8em;
+    box-sizing: border-box;
+    background-color: #fafaf7;
+    border-radius: 4px;
+    overflow-x: auto;
+  }
+
+  .content :global(pre code) {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.95em;
+    line-height: 1.6em;
+    color: #333;
+    background-color: transparent;
+  }
+
   .content :global(img) {
     display: block;
     width: 100%;
