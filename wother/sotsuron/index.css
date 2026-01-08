@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Noto Sans Japanese';
+    src: url('http://watarutaru.com/font/NotoSansJP-Regular.otf');
+    src: local('Noto Sans Japanese'), url('http://watarutaru.com/font/NotoSansJP-Regular.otf') format('opentype')
+}
+
+@font-face {
+    font-family: 'Noto Sans bold';
+    src: url('http://watarutaru.com/font/NotoSansJP-Bold.otf');
+    src: url('http://watarutaru.com/font/NotoSansJP-Bold.otf') format('opentype')
+}
+
+body {
+	font: 100%/1.4 'Noto Sans Japanese' "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS P Gothic", sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #000;
+	background:url("./back.png");
+}
+
+ul, ol, dl { 
+	padding: 0;
+	margin: 0;
+}
+
+p {
+	display:inline;
+	font-size:xx-small;
+	line-height:135%;
+	color:#666;
+	margin:0;
+	text-indent:0;
+}
+
+a img {
+	border: none;
+}
+
+a:link {
+	color:#414958;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #4E5869;
+	text-decoration: underline;
+}
+
+a:hover, a:active, a:focus {
+	text-decoration: none;
+}
+
+.clearfix {width:100%;}
+.clearfix:after {
+  content: ""; 
+  display: block; 
+  clear: both;
+ }
+
+/*ここから*/
+
+#wrapper{
+	width:900px;
+	margin:auto;
+}
+
+h1{
+	margin:120px auto;
+	width:400px;
+}	
+
+.flag{
+	position:relative;
+	float:left;
+	width:241px;
+	height:250px;
+	margin-left:154px;
+	overflow:hidden;
+}
+
+.position{
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+.flag a{
+	display:block;
+	width:110px;
+	margin:0 auto;
+}
+
+.slide{
+	margin-top:-55px;
+}
+
+span.bold{
+	font-family: 'Noto Sans bold' "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS P Gothic", sans-serif;
+}

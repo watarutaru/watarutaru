@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>卒論tsurai</title>
+<link href="index.css" rel="stylesheet" type="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+
+<!-- jQuery -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+
+<script>
+$(function() {
+    $('.slide')
+    .hover(
+        function(){
+            $(this).stop().animate({'marginTop':'0px'},'fast');
+        },
+        function () {
+            $(this).stop().animate({'marginTop':'-55px'},'fast');
+        }
+    );
+});
+</script>
+
+</head>
+
+<body>
+	<div id="wrapper">
+	<h1><a href="index.html"><img src="title.png" alt="卒論tsurai" /></a></h1>
+    <div class="cleafix">
+    	<div class="flag"><a href="http://twitter.com" target="_blank"><img class="slide" src="akirame.png" /></a><img class="position" src="shadow.png" /></div>
+        <div class="flag"><a href="http://www.mycon10ts.com/" target="_blank"><img class="slide" src="gambaru.png" /></a><img class="position" src="shadow.png" /></div>
+    </div>
+    </div>
+</body>
+</html>

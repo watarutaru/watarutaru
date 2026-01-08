@@ -1,0 +1,23 @@
+<Files ~ "^\.(htaccess|htpasswd)$">
+deny from all
+</Files>
+AuthUserFile /home/watarutaru/www/wother/3prd/140831BBQ/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Please enter your ID and password"
+AuthType Basic
+require valid-user 
+order deny,allow
+
+<IfModule mod_mime.c>
+	AddType font/opentype         .otf
+	AddType font/eot              .eot
+	AddType font/truetype         .ttf
+	AddType application/font-woff .woff
+</IfModule>
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE font/opentype font/eot font/truetype application/font-woff
+</IfModule>
+
+<FilesMatch "\.(?i:(otf|ttf|eot|woff)(\.gz)?)$">
+    ExpiresDefault A25920000
+</FilesMatch>
