@@ -408,6 +408,23 @@ const dateInfo = formatDate(post.data.date);
     font-size: 0.95em;
   }
 
+  .content :global(.custom-box) {
+    background-color: #fff;
+    padding: 24px;
+    margin: 2em 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+
+  .content :global(.custom-box p) {
+    margin-top: 0;
+    color: #333;
+  }
+
+  .content :global(.custom-box p:first-of-type) {
+    margin-top: 0;
+  }
+
   .content :global(img) {
     display: block;
     width: 100%;
